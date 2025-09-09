@@ -47,7 +47,7 @@ def analyze_hrv(volunteer_id, user_note, base_dir="."):
     max_rr = df['rr_intervals_ms'].max()
     df['normalized_rr_intervals'] = (df['rr_intervals_ms'] - min_rr) / (max_rr - min_rr)
 
-    # --- Manual Classification based on your notes ---
+    # --- Manual Classification based on our notes ---
     if volunteer_id == 23:
         conclusion = "Relaxed / Low Stress"
         annotation_text = "High HRV: The changing pattern indicates a relaxed state."
@@ -64,7 +64,7 @@ def analyze_hrv(volunteer_id, user_note, base_dir="."):
         annotation_color = 'gray'
         plot_fill_color = 'gray'
 
-    # --- Generate the Plot ---
+    # --- Generate the Plot -----
     plt.figure(figsize=(15, 7))
     plt.plot(df['time_index'], df['normalized_rr_intervals'], label='Normalized RR Intervals', color='darkgreen')
     
