@@ -1,0 +1,734 @@
+Time,Resistance (Ohms),Stage
+0,0.8695762281359724,Calibration (20s)
+1,0.8516676621343692,Calibration (20s)
+2,0.8568873882903602,Calibration (20s)
+3,0.8736543959619115,Calibration (20s)
+4,0.8702202818505412,Calibration (20s)
+5,0.8703904017837458,Calibration (20s)
+6,0.8704518909162291,Calibration (20s)
+7,0.8701822556765053,Calibration (20s)
+8,0.8706511912184456,Calibration (20s)
+9,0.8898433338710036,Calibration (20s)
+10,0.8922476668267811,Calibration (20s)
+11,0.8506911176224267,Calibration (20s)
+12,0.8717393510913408,Calibration (20s)
+13,0.8490095516625082,Calibration (20s)
+14,0.9484992916478907,Calibration (20s)
+15,0.8616361292666614,Calibration (20s)
+16,0.8485462256554613,Calibration (20s)
+17,0.889313808160505,Calibration (20s)
+18,0.8623438476064128,Calibration (20s)
+19,0.8462925302867013,Calibration (20s)
+20,0.8242197584198061,Normal - Watch Video (4 min)
+21,0.8457685709608275,Normal - Watch Video (4 min)
+22,0.8832004651167431,Normal - Watch Video (4 min)
+23,0.822612137636519,Normal - Watch Video (4 min)
+24,0.7737876305063012,Normal - Watch Video (4 min)
+25,0.828865906037108,Normal - Watch Video (4 min)
+26,0.887103219909886,Normal - Watch Video (4 min)
+27,0.8632226028225721,Normal - Watch Video (4 min)
+28,0.8126243283964122,Normal - Watch Video (4 min)
+29,0.8627819666649972,Normal - Watch Video (4 min)
+30,0.9698325685982067,Normal - Watch Video (4 min)
+31,0.8406286188635586,Normal - Watch Video (4 min)
+32,0.8390972877548194,Normal - Watch Video (4 min)
+33,0.9316283997051434,Normal - Watch Video (4 min)
+34,0.8254473116389425,Normal - Watch Video (4 min)
+35,0.8530692907279809,Normal - Watch Video (4 min)
+36,0.850647643727004,Normal - Watch Video (4 min)
+37,0.8140209048127641,Normal - Watch Video (4 min)
+38,0.8530027853767946,Normal - Watch Video (4 min)
+39,0.8611225511761958,Normal - Watch Video (4 min)
+40,0.8548848382713106,Normal - Watch Video (4 min)
+41,0.854867793915289,Normal - Watch Video (4 min)
+42,0.8435303845177052,Normal - Watch Video (4 min)
+43,0.851918850634348,Normal - Watch Video (4 min)
+44,0.8469737219989479,Normal - Watch Video (4 min)
+45,0.8551988463703822,Normal - Watch Video (4 min)
+46,0.8423953167071933,Normal - Watch Video (4 min)
+47,0.8785374960864729,Normal - Watch Video (4 min)
+48,0.8233824634198766,Normal - Watch Video (4 min)
+49,0.8636191753643897,Normal - Watch Video (4 min)
+50,0.852984176823543,Normal - Watch Video (4 min)
+51,0.826952536835294,Normal - Watch Video (4 min)
+52,0.8823984202902486,Normal - Watch Video (4 min)
+53,0.8646786007543799,Normal - Watch Video (4 min)
+54,0.8394362331131761,Normal - Watch Video (4 min)
+55,0.7105208867570737,Normal - Watch Video (4 min)
+56,0.7495183373762886,Normal - Watch Video (4 min)
+57,0.7885157879955036,Normal - Watch Video (4 min)
+58,0.8617644042270757,Normal - Watch Video (4 min)
+59,0.902132817982486,Normal - Watch Video (4 min)
+60,0.7909883253442856,Normal - Watch Video (4 min)
+61,0.8550415276834725,Normal - Watch Video (4 min)
+62,0.8426541284212576,Normal - Watch Video (4 min)
+63,0.8673598865162324,Normal - Watch Video (4 min)
+64,0.8206144456185213,Normal - Watch Video (4 min)
+65,0.8302990127515245,Normal - Watch Video (4 min)
+66,0.844908010774514,Normal - Watch Video (4 min)
+67,0.8447529394974174,Normal - Watch Video (4 min)
+68,0.8436489398801603,Normal - Watch Video (4 min)
+69,0.5108769286113598,Normal - Watch Video (4 min)
+70,0.8507920532919478,Normal - Watch Video (4 min)
+71,0.8045050120789737,Normal - Watch Video (4 min)
+72,0.8335039342122377,Normal - Watch Video (4 min)
+73,0.8628129988996951,Normal - Watch Video (4 min)
+74,0.8332946014726161,Normal - Watch Video (4 min)
+75,0.8670932178574616,Normal - Watch Video (4 min)
+76,0.8444032065719583,Normal - Watch Video (4 min)
+77,0.8052688797054929,Normal - Watch Video (4 min)
+78,0.8566787028047647,Normal - Watch Video (4 min)
+79,0.8381131020495126,Normal - Watch Video (4 min)
+80,0.8162181308635987,Normal - Watch Video (4 min)
+81,0.8579672237573078,Normal - Watch Video (4 min)
+82,0.8398691381809944,Normal - Watch Video (4 min)
+83,0.8121124583374044,Normal - Watch Video (4 min)
+84,0.8587627708725512,Normal - Watch Video (4 min)
+85,0.848371380767866,Normal - Watch Video (4 min)
+86,0.8183313721086858,Normal - Watch Video (4 min)
+87,0.8337614873768069,Normal - Watch Video (4 min)
+88,0.8589788098830548,Normal - Watch Video (4 min)
+89,0.836516578076918,Normal - Watch Video (4 min)
+90,0.7984669590618749,Normal - Watch Video (4 min)
+91,0.848182073348642,Normal - Watch Video (4 min)
+92,0.8412979514437041,Normal - Watch Video (4 min)
+93,0.8391598556440133,Normal - Watch Video (4 min)
+94,0.7966988048966817,Normal - Watch Video (4 min)
+95,0.8539581862572165,Normal - Watch Video (4 min)
+96,0.8397827837063399,Normal - Watch Video (4 min)
+97,0.854353690829891,Normal - Watch Video (4 min)
+98,0.8415510817057613,Normal - Watch Video (4 min)
+99,0.8550308479920413,Normal - Watch Video (4 min)
+100,0.8326969702551446,Normal - Watch Video (4 min)
+101,0.8027399287745488,Normal - Watch Video (4 min)
+102,0.8607577516153503,Normal - Watch Video (4 min)
+103,0.8018893506836607,Normal - Watch Video (4 min)
+104,0.8083126996390991,Normal - Watch Video (4 min)
+105,0.8387805000592912,Normal - Watch Video (4 min)
+106,0.830017824027434,Normal - Watch Video (4 min)
+107,0.8280069136438801,Normal - Watch Video (4 min)
+108,0.8197007566642285,Normal - Watch Video (4 min)
+109,0.8116955368481761,Normal - Watch Video (4 min)
+110,0.8394644318135817,Normal - Watch Video (4 min)
+111,0.8276961238356607,Normal - Watch Video (4 min)
+112,0.8257319775554957,Normal - Watch Video (4 min)
+113,0.8254622344401009,Normal - Watch Video (4 min)
+114,0.8290851309757626,Normal - Watch Video (4 min)
+115,0.8298348668893778,Normal - Watch Video (4 min)
+116,0.83360113019183,Normal - Watch Video (4 min)
+117,0.8306191769555559,Normal - Watch Video (4 min)
+118,0.833169196005051,Normal - Watch Video (4 min)
+119,0.8329010170868859,Normal - Watch Video (4 min)
+120,0.8078238790151335,Normal - Watch Video (4 min)
+121,0.8071897139037418,Normal - Watch Video (4 min)
+122,0.8297661500869355,Normal - Watch Video (4 min)
+123,0.8631207681891258,Normal - Watch Video (4 min)
+124,0.780137257228162,Normal - Watch Video (4 min)
+125,0.8054163996856177,Normal - Watch Video (4 min)
+126,0.7799516823071556,Normal - Watch Video (4 min)
+127,0.8299372840514476,Normal - Watch Video (4 min)
+128,0.7638338344652682,Normal - Watch Video (4 min)
+129,0.8440698168106594,Normal - Watch Video (4 min)
+130,0.7879094548072361,Normal - Watch Video (4 min)
+131,0.8326104863296847,Normal - Watch Video (4 min)
+132,0.8551195937107369,Normal - Watch Video (4 min)
+133,0.7913758740862222,Normal - Watch Video (4 min)
+134,0.8546257388887901,Normal - Watch Video (4 min)
+135,0.7912612957401722,Normal - Watch Video (4 min)
+136,0.7961967946740055,Normal - Watch Video (4 min)
+137,0.8178779814509402,Normal - Watch Video (4 min)
+138,0.8219034160530271,Normal - Watch Video (4 min)
+139,0.8189882917949521,Normal - Watch Video (4 min)
+140,0.8298140900351385,Normal - Watch Video (4 min)
+141,0.8129483329743321,Normal - Watch Video (4 min)
+142,0.814826070842007,Normal - Watch Video (4 min)
+143,0.7917568765728554,Normal - Watch Video (4 min)
+144,0.819709440655746,Normal - Watch Video (4 min)
+145,0.8334221428784675,Normal - Watch Video (4 min)
+146,0.8163706886375606,Normal - Watch Video (4 min)
+147,0.7029217289460332,Normal - Watch Video (4 min)
+148,0.8452091133474756,Normal - Watch Video (4 min)
+149,0.8340481669725525,Normal - Watch Video (4 min)
+150,0.8212662484021254,Normal - Watch Video (4 min)
+151,0.85205534931675,Normal - Watch Video (4 min)
+152,0.8388488500844518,Normal - Watch Video (4 min)
+153,0.9146781831856365,Normal - Watch Video (4 min)
+154,0.8437883691849585,Normal - Watch Video (4 min)
+155,0.8395185854004357,Normal - Watch Video (4 min)
+156,0.8404216773679781,Normal - Watch Video (4 min)
+157,0.8631295061184788,Normal - Watch Video (4 min)
+158,0.8532624061583918,Normal - Watch Video (4 min)
+159,0.8385954501332169,Normal - Watch Video (4 min)
+160,0.8565892918527644,Normal - Watch Video (4 min)
+161,0.8640120369831241,Normal - Watch Video (4 min)
+162,0.9276881329453296,Normal - Watch Video (4 min)
+163,0.8232734910128643,Normal - Watch Video (4 min)
+164,0.8385954501332169,Normal - Watch Video (4 min)
+165,0.8053396461456844,Normal - Watch Video (4 min)
+166,0.8637062633936072,Normal - Watch Video (4 min)
+167,0.939336835570931,Normal - Watch Video (4 min)
+168,0.7600799409064265,Normal - Watch Video (4 min)
+169,0.8085039632038243,Normal - Watch Video (4 min)
+170,0.8498626324689642,Normal - Watch Video (4 min)
+171,0.7948295892070175,Normal - Watch Video (4 min)
+172,0.7545402375309007,Normal - Watch Video (4 min)
+173,0.8137484468263151,Normal - Watch Video (4 min)
+174,0.8411998205416295,Normal - Watch Video (4 min)
+175,0.7990362189778674,Normal - Watch Video (4 min)
+176,0.8033531156637821,Normal - Watch Video (4 min)
+177,0.7552069631156629,Normal - Watch Video (4 min)
+178,0.8010459247497614,Normal - Watch Video (4 min)
+179,0.8521296936333639,Normal - Watch Video (4 min)
+180,0.7409949367744736,Normal - Watch Video (4 min)
+181,0.8686332149784397,Normal - Watch Video (4 min)
+182,0.8100219896464707,Normal - Watch Video (4 min)
+183,0.8400057806976244,Normal - Watch Video (4 min)
+184,0.8201237911081481,Normal - Watch Video (4 min)
+185,0.8383247900746184,Normal - Watch Video (4 min)
+186,0.8157447939942807,Normal - Watch Video (4 min)
+187,0.7998296265589685,Normal - Watch Video (4 min)
+188,0.7633516032468742,Normal - Watch Video (4 min)
+189,0.8350176815866,Normal - Watch Video (4 min)
+190,0.728740404380403,Normal - Watch Video (4 min)
+191,0.8011380505728157,Normal - Watch Video (4 min)
+192,0.819091636687793,Normal - Watch Video (4 min)
+193,0.7946049920599461,Normal - Watch Video (4 min)
+194,0.7432571255543988,Normal - Watch Video (4 min)
+195,0.8135237418035728,Normal - Watch Video (4 min)
+196,0.8257006037145064,Normal - Watch Video (4 min)
+197,0.7766810501793662,Normal - Watch Video (4 min)
+198,0.7959146027061743,Normal - Watch Video (4 min)
+199,0.7902249161893684,Normal - Watch Video (4 min)
+200,0.7920732579366895,Normal - Watch Video (4 min)
+201,0.8107286400170788,Normal - Watch Video (4 min)
+202,0.7945852508121486,Normal - Watch Video (4 min)
+203,0.7657912744745512,Normal - Watch Video (4 min)
+204,0.7962520378051366,Normal - Watch Video (4 min)
+205,0.8178285851811784,Normal - Watch Video (4 min)
+206,0.8320825284122716,Normal - Watch Video (4 min)
+207,0.8049448211897374,Normal - Watch Video (4 min)
+208,0.7631025812499552,Normal - Watch Video (4 min)
+209,0.8156422042311373,Normal - Watch Video (4 min)
+210,0.7979437980159668,Normal - Watch Video (4 min)
+211,0.7656865631565442,Normal - Watch Video (4 min)
+212,0.795687578356505,Normal - Watch Video (4 min)
+213,0.7958743650808825,Normal - Watch Video (4 min)
+214,0.8105187139612665,Normal - Watch Video (4 min)
+215,0.7278197574453293,Normal - Watch Video (4 min)
+216,0.8031275476356714,Normal - Watch Video (4 min)
+217,0.7817260932612683,Normal - Watch Video (4 min)
+218,0.786651696400213,Normal - Watch Video (4 min)
+219,0.8441844886489578,Normal - Watch Video (4 min)
+220,0.7480367369518914,Normal - Watch Video (4 min)
+221,0.7174644265816117,Normal - Watch Video (4 min)
+222,0.8203093372623089,Normal - Watch Video (4 min)
+223,0.8331965964254909,Normal - Watch Video (4 min)
+224,0.728783572628091,Normal - Watch Video (4 min)
+225,0.7790081657298248,Normal - Watch Video (4 min)
+226,0.8103851351136936,Normal - Watch Video (4 min)
+227,0.7673584778397615,Normal - Watch Video (4 min)
+228,0.8061313241201937,Normal - Watch Video (4 min)
+229,0.7657901597592839,Normal - Watch Video (4 min)
+230,0.7158470142832511,Normal - Watch Video (4 min)
+231,0.8493116682667775,Normal - Watch Video (4 min)
+232,0.8088353932237663,Normal - Watch Video (4 min)
+233,0.7735495489003517,Normal - Watch Video (4 min)
+234,0.7574636528048342,Normal - Watch Video (4 min)
+235,0.8297017483113344,Normal - Watch Video (4 min)
+236,0.7901222185505538,Normal - Watch Video (4 min)
+237,0.7763325254614226,Normal - Watch Video (4 min)
+238,0.7675004925648087,Normal - Watch Video (4 min)
+239,0.8102561877282631,Normal - Watch Video (4 min)
+240,0.8081967980181513,Normal - Watch Video (4 min)
+241,0.7817901714098564,Normal - Watch Video (4 min)
+242,0.7795117077870296,Normal - Watch Video (4 min)
+243,0.7804231709066434,Normal - Watch Video (4 min)
+244,0.8155807870157677,Normal - Watch Video (4 min)
+245,0.7380370937506734,Normal - Watch Video (4 min)
+246,0.8252998384049417,Normal - Watch Video (4 min)
+247,0.8122099599647314,Normal - Watch Video (4 min)
+248,0.8344900257210659,Normal - Watch Video (4 min)
+249,0.7743915185126921,Normal - Watch Video (4 min)
+250,0.7769705021798571,Normal - Watch Video (4 min)
+251,0.7835775418279148,Normal - Watch Video (4 min)
+252,0.8143569303362918,Normal - Watch Video (4 min)
+253,0.7633843525026692,Normal - Watch Video (4 min)
+254,0.7404539402842893,Normal - Watch Video (4 min)
+255,0.8279600093021191,Normal - Watch Video (4 min)
+256,0.816149507553405,Normal - Watch Video (4 min)
+257,0.8147897706787074,Normal - Watch Video (4 min)
+258,0.7858505037915196,Normal - Watch Video (4 min)
+259,0.8049458999464477,Normal - Watch Video (4 min)
+260,0.8246426310502194,Remove 5 Easy Pieces (3 min)
+261,0.8230127878787012,Remove 5 Easy Pieces (3 min)
+262,0.7876788885397012,Remove 5 Easy Pieces (3 min)
+263,0.816494565866453,Remove 5 Easy Pieces (3 min)
+264,0.7949817837995534,Remove 5 Easy Pieces (3 min)
+265,0.7845152546941445,Remove 5 Easy Pieces (3 min)
+266,0.7822326342621275,Remove 5 Easy Pieces (3 min)
+267,0.715158030351701,Remove 5 Easy Pieces (3 min)
+268,0.6874547957113917,Remove 5 Easy Pieces (3 min)
+269,0.7859691310710886,Remove 5 Easy Pieces (3 min)
+270,0.797431568371389,Remove 5 Easy Pieces (3 min)
+271,0.6994174596899406,Remove 5 Easy Pieces (3 min)
+272,0.759869475472259,Remove 5 Easy Pieces (3 min)
+273,0.7281787137406608,Remove 5 Easy Pieces (3 min)
+274,0.7552921093828019,Remove 5 Easy Pieces (3 min)
+275,0.6942313487916593,Remove 5 Easy Pieces (3 min)
+276,0.7368423706940853,Remove 5 Easy Pieces (3 min)
+277,0.7446672187923302,Remove 5 Easy Pieces (3 min)
+278,0.7527276385892454,Remove 5 Easy Pieces (3 min)
+279,0.7416764736888675,Remove 5 Easy Pieces (3 min)
+280,0.7650214916654042,Remove 5 Easy Pieces (3 min)
+281,0.7322548139495718,Remove 5 Easy Pieces (3 min)
+282,0.6572031925193543,Remove 5 Easy Pieces (3 min)
+283,0.7508235538868506,Remove 5 Easy Pieces (3 min)
+284,0.6220816068843521,Remove 5 Easy Pieces (3 min)
+285,0.6483411342276387,Remove 5 Easy Pieces (3 min)
+286,0.7000377807568842,Remove 5 Easy Pieces (3 min)
+287,0.6676743243200601,Remove 5 Easy Pieces (3 min)
+288,0.6910120750722256,Remove 5 Easy Pieces (3 min)
+289,0.6346699785216843,Remove 5 Easy Pieces (3 min)
+290,0.6756293459905295,Remove 5 Easy Pieces (3 min)
+291,0.6945598541822978,Remove 5 Easy Pieces (3 min)
+292,0.719914369371098,Remove 5 Easy Pieces (3 min)
+293,0.5883344651738631,Remove 5 Easy Pieces (3 min)
+294,0.6927586541032141,Remove 5 Easy Pieces (3 min)
+295,0.6941874673659237,Remove 5 Easy Pieces (3 min)
+296,0.6361344986315025,Remove 5 Easy Pieces (3 min)
+297,0.7020727833736334,Remove 5 Easy Pieces (3 min)
+298,0.6756762719074249,Remove 5 Easy Pieces (3 min)
+299,0.6850122100426693,Remove 5 Easy Pieces (3 min)
+300,0.7058752569429928,Remove 5 Easy Pieces (3 min)
+301,0.678390405811104,Remove 5 Easy Pieces (3 min)
+302,0.652811106490736,Remove 5 Easy Pieces (3 min)
+303,0.6896806375818934,Remove 5 Easy Pieces (3 min)
+304,0.6713916660057033,Remove 5 Easy Pieces (3 min)
+305,0.6823063645863804,Remove 5 Easy Pieces (3 min)
+306,0.6798303302679293,Remove 5 Easy Pieces (3 min)
+307,0.6823604102975634,Remove 5 Easy Pieces (3 min)
+308,0.6192973717737857,Remove 5 Easy Pieces (3 min)
+309,0.7020133079203423,Remove 5 Easy Pieces (3 min)
+310,0.675397359359993,Remove 5 Easy Pieces (3 min)
+311,0.6819143983357157,Remove 5 Easy Pieces (3 min)
+312,0.6704905985049204,Remove 5 Easy Pieces (3 min)
+313,0.6864399445486687,Remove 5 Easy Pieces (3 min)
+314,0.6714716917743244,Remove 5 Easy Pieces (3 min)
+315,0.7064838555203516,Remove 5 Easy Pieces (3 min)
+316,0.6932259175722537,Remove 5 Easy Pieces (3 min)
+317,0.6706516209232017,Remove 5 Easy Pieces (3 min)
+318,0.6831252488051218,Remove 5 Easy Pieces (3 min)
+319,0.6467731253907515,Remove 5 Easy Pieces (3 min)
+320,0.6732593174981376,Remove 5 Easy Pieces (3 min)
+321,0.6748294478898884,Remove 5 Easy Pieces (3 min)
+322,0.6643048636941902,Remove 5 Easy Pieces (3 min)
+323,0.6813560338624967,Remove 5 Easy Pieces (3 min)
+324,0.6617323166087297,Remove 5 Easy Pieces (3 min)
+325,0.6792870324300965,Remove 5 Easy Pieces (3 min)
+326,0.6602963475931753,Remove 5 Easy Pieces (3 min)
+327,0.6606514743021855,Remove 5 Easy Pieces (3 min)
+328,0.6791821772778616,Remove 5 Easy Pieces (3 min)
+329,0.6282186538088933,Remove 5 Easy Pieces (3 min)
+330,0.7097926540605495,Remove 5 Easy Pieces (3 min)
+331,0.6830893801445064,Remove 5 Easy Pieces (3 min)
+332,0.663947921078051,Remove 5 Easy Pieces (3 min)
+333,0.6529865482903777,Remove 5 Easy Pieces (3 min)
+334,0.653682310409924,Remove 5 Easy Pieces (3 min)
+335,0.6563413378249886,Remove 5 Easy Pieces (3 min)
+336,0.6578341213606153,Remove 5 Easy Pieces (3 min)
+337,0.6588171276252522,Remove 5 Easy Pieces (3 min)
+338,0.6561921673470968,Remove 5 Easy Pieces (3 min)
+339,0.6561826527129125,Remove 5 Easy Pieces (3 min)
+340,0.6553960880452099,Remove 5 Easy Pieces (3 min)
+341,0.6330133678003292,Remove 5 Easy Pieces (3 min)
+342,0.6659680702422877,Remove 5 Easy Pieces (3 min)
+343,0.6508664317691909,Remove 5 Easy Pieces (3 min)
+344,0.6410366927498351,Remove 5 Easy Pieces (3 min)
+345,0.6369764143060076,Remove 5 Easy Pieces (3 min)
+346,0.5632988592354552,Remove 5 Easy Pieces (3 min)
+347,0.6773704053830174,Remove 5 Easy Pieces (3 min)
+348,0.6544165338020458,Remove 5 Easy Pieces (3 min)
+349,0.6386359196912015,Remove 5 Easy Pieces (3 min)
+350,0.4916052636099788,Remove 5 Easy Pieces (3 min)
+351,0.6845818939909556,Remove 5 Easy Pieces (3 min)
+352,0.6476009057564964,Remove 5 Easy Pieces (3 min)
+353,0.6218880060134215,Remove 5 Easy Pieces (3 min)
+354,0.6569874699441525,Remove 5 Easy Pieces (3 min)
+355,0.6517328352210182,Remove 5 Easy Pieces (3 min)
+356,0.6486776883419544,Remove 5 Easy Pieces (3 min)
+357,0.6477921908963558,Remove 5 Easy Pieces (3 min)
+358,0.5069698875582213,Remove 5 Easy Pieces (3 min)
+359,0.6989666472607321,Remove 5 Easy Pieces (3 min)
+360,0.6633926849992917,Remove 5 Easy Pieces (3 min)
+361,0.6611457965853735,Remove 5 Easy Pieces (3 min)
+362,0.6628240723373257,Remove 5 Easy Pieces (3 min)
+363,0.640974394549819,Remove 5 Easy Pieces (3 min)
+364,0.8747247383698092,Remove 5 Easy Pieces (3 min)
+365,0.6701457127929462,Remove 5 Easy Pieces (3 min)
+366,0.5528225925528083,Remove 5 Easy Pieces (3 min)
+367,0.6289596158345987,Remove 5 Easy Pieces (3 min)
+368,0.6555315691004486,Remove 5 Easy Pieces (3 min)
+369,0.6674332437704563,Remove 5 Easy Pieces (3 min)
+370,0.6392291819439967,Remove 5 Easy Pieces (3 min)
+371,0.639757772732013,Remove 5 Easy Pieces (3 min)
+372,0.6156617099503864,Remove 5 Easy Pieces (3 min)
+373,0.620737835608966,Remove 5 Easy Pieces (3 min)
+374,0.6831518221787506,Remove 5 Easy Pieces (3 min)
+375,0.6436373594268758,Remove 5 Easy Pieces (3 min)
+376,0.6483068657228102,Remove 5 Easy Pieces (3 min)
+377,0.6572970623324235,Remove 5 Easy Pieces (3 min)
+378,0.664239994457348,Remove 5 Easy Pieces (3 min)
+379,0.6557405422545002,Remove 5 Easy Pieces (3 min)
+380,0.6918388629817973,Remove 5 Easy Pieces (3 min)
+381,0.6827268639520311,Remove 5 Easy Pieces (3 min)
+382,0.6576163563393753,Remove 5 Easy Pieces (3 min)
+383,0.6972811042844089,Remove 5 Easy Pieces (3 min)
+384,0.6799994972993729,Remove 5 Easy Pieces (3 min)
+385,0.67878476330581,Remove 5 Easy Pieces (3 min)
+386,0.6813176301236122,Remove 5 Easy Pieces (3 min)
+387,0.6151359958469305,Remove 5 Easy Pieces (3 min)
+388,0.6033232502842589,Remove 5 Easy Pieces (3 min)
+389,0.5846337902793932,Remove 5 Easy Pieces (3 min)
+390,0.6637260747605906,Remove 5 Easy Pieces (3 min)
+391,0.767217216189637,Remove 5 Easy Pieces (3 min)
+392,0.661844453368759,Remove 5 Easy Pieces (3 min)
+393,0.6721594171563795,Remove 5 Easy Pieces (3 min)
+394,0.6545004754575252,Remove 5 Easy Pieces (3 min)
+395,0.6843242329507153,Remove 5 Easy Pieces (3 min)
+396,0.6549132796919761,Remove 5 Easy Pieces (3 min)
+397,0.7087418011905501,Remove 5 Easy Pieces (3 min)
+398,0.8228329807102387,Remove 5 Easy Pieces (3 min)
+399,0.6473543954647845,Remove 5 Easy Pieces (3 min)
+400,0.6670949600495487,Remove 5 Easy Pieces (3 min)
+401,0.7010604205430553,Remove 5 Easy Pieces (3 min)
+402,0.6748259419305802,Remove 5 Easy Pieces (3 min)
+403,0.6690904621914245,Remove 5 Easy Pieces (3 min)
+404,0.6699520651758912,Remove 5 Easy Pieces (3 min)
+405,0.642652993928784,Remove 5 Easy Pieces (3 min)
+406,0.6369558639906776,Remove 5 Easy Pieces (3 min)
+407,0.6839107994415169,Remove 5 Easy Pieces (3 min)
+408,0.7233764017061292,Remove 5 Easy Pieces (3 min)
+409,0.6618640867408854,Remove 5 Easy Pieces (3 min)
+410,0.666953660899786,Remove 5 Easy Pieces (3 min)
+411,0.6736004203699149,Remove 5 Easy Pieces (3 min)
+412,0.6766553514976364,Remove 5 Easy Pieces (3 min)
+413,0.6856701437602433,Remove 5 Easy Pieces (3 min)
+414,0.6900757861648534,Remove 5 Easy Pieces (3 min)
+415,0.6944063471024311,Remove 5 Easy Pieces (3 min)
+416,0.6782616741770159,Remove 5 Easy Pieces (3 min)
+417,0.7018172762509578,Remove 5 Easy Pieces (3 min)
+418,0.6863294259237048,Remove 5 Easy Pieces (3 min)
+419,0.6754620847626073,Remove 5 Easy Pieces (3 min)
+420,0.6445434071878045,Remove 5 Easy Pieces (3 min)
+421,0.7410657679400678,Remove 5 Easy Pieces (3 min)
+422,0.6946263595334841,Remove 5 Easy Pieces (3 min)
+423,0.6061423292365656,Remove 5 Easy Pieces (3 min)
+424,0.7323938584978101,Remove 5 Easy Pieces (3 min)
+425,0.6646633525282807,Remove 5 Easy Pieces (3 min)
+426,0.6529925174108411,Remove 5 Easy Pieces (3 min)
+427,0.5624145664015161,Remove 5 Easy Pieces (3 min)
+428,0.6963344449291957,Remove 5 Easy Pieces (3 min)
+429,0.644448206908126,Remove 5 Easy Pieces (3 min)
+430,0.6596923876696704,Remove 5 Easy Pieces (3 min)
+431,0.6504135697022331,Remove 5 Easy Pieces (3 min)
+432,0.6653776512839644,Remove 5 Easy Pieces (3 min)
+433,0.6716320130007442,Remove 5 Easy Pieces (3 min)
+434,0.6742454629448014,Remove 5 Easy Pieces (3 min)
+435,0.6802478810319051,Remove 5 Easy Pieces (3 min)
+436,0.6794445848476267,Remove 5 Easy Pieces (3 min)
+437,0.6817178488631104,Remove 5 Easy Pieces (3 min)
+438,0.6853276924425782,Remove 5 Easy Pieces (3 min)
+439,0.6845596176648892,Remove 5 Easy Pieces (3 min)
+440,0.6913604775310754,Remove 12 Pieces with Noise (1 min)
+441,0.6929755381398074,Remove 12 Pieces with Noise (1 min)
+442,0.6951140115043469,Remove 12 Pieces with Noise (1 min)
+443,0.6887376963414747,Remove 12 Pieces with Noise (1 min)
+444,0.677599749059614,Remove 12 Pieces with Noise (1 min)
+445,0.6298068138211279,Remove 12 Pieces with Noise (1 min)
+446,0.5469571334176363,Remove 12 Pieces with Noise (1 min)
+447,0.6663162415389852,Remove 12 Pieces with Noise (1 min)
+448,0.6324702317760033,Remove 12 Pieces with Noise (1 min)
+449,0.6370319522973062,Remove 12 Pieces with Noise (1 min)
+450,0.6179619788421827,Remove 12 Pieces with Noise (1 min)
+451,0.5739064897185628,Remove 12 Pieces with Noise (1 min)
+452,0.6464468734030187,Remove 12 Pieces with Noise (1 min)
+453,0.574381016816118,Remove 12 Pieces with Noise (1 min)
+454,0.6094775033783288,Remove 12 Pieces with Noise (1 min)
+455,0.5695398263897494,Remove 12 Pieces with Noise (1 min)
+456,0.5568843560850403,Remove 12 Pieces with Noise (1 min)
+457,0.5788643117245867,Remove 12 Pieces with Noise (1 min)
+458,0.5709327170540082,Remove 12 Pieces with Noise (1 min)
+459,0.5295675752486068,Remove 12 Pieces with Noise (1 min)
+460,0.5749769759606886,Remove 12 Pieces with Noise (1 min)
+461,0.5458771541164603,Remove 12 Pieces with Noise (1 min)
+462,0.5733477512763512,Remove 12 Pieces with Noise (1 min)
+463,0.5756617275700792,Remove 12 Pieces with Noise (1 min)
+464,0.5472081241455515,Remove 12 Pieces with Noise (1 min)
+465,0.5779678505149566,Remove 12 Pieces with Noise (1 min)
+466,0.5392415777575611,Remove 12 Pieces with Noise (1 min)
+467,0.5451382417285047,Remove 12 Pieces with Noise (1 min)
+468,0.5553802815625133,Remove 12 Pieces with Noise (1 min)
+469,0.5613798229650565,Remove 12 Pieces with Noise (1 min)
+470,0.47766628857142923,Remove 12 Pieces with Noise (1 min)
+471,0.5227364131064299,Remove 12 Pieces with Noise (1 min)
+472,0.42181348010609454,Remove 12 Pieces with Noise (1 min)
+473,0.5547307621472791,Remove 12 Pieces with Noise (1 min)
+474,0.42362012790656484,Remove 12 Pieces with Noise (1 min)
+475,0.4736746010750943,Remove 12 Pieces with Noise (1 min)
+476,0.5010018386599057,Remove 12 Pieces with Noise (1 min)
+477,0.474295533437507,Remove 12 Pieces with Noise (1 min)
+478,0.47443178041001005,Remove 12 Pieces with Noise (1 min)
+479,0.4133119063483833,Remove 12 Pieces with Noise (1 min)
+480,0.37662792141138696,Remove 12 Pieces with Noise (1 min)
+481,0.5839102681538371,Remove 12 Pieces with Noise (1 min)
+482,0.444886306189504,Remove 12 Pieces with Noise (1 min)
+483,0.3966688478228381,Remove 12 Pieces with Noise (1 min)
+484,0.47621205260891497,Remove 12 Pieces with Noise (1 min)
+485,0.43607895884227615,Remove 12 Pieces with Noise (1 min)
+486,0.39486654741191,Remove 12 Pieces with Noise (1 min)
+487,0.3943739727145929,Remove 12 Pieces with Noise (1 min)
+488,0.47317712163060105,Remove 12 Pieces with Noise (1 min)
+489,0.41357479935866825,Remove 12 Pieces with Noise (1 min)
+490,0.49427842273794753,Remove 12 Pieces with Noise (1 min)
+491,0.2560750790937676,Remove 12 Pieces with Noise (1 min)
+492,0.5288472246677787,Remove 12 Pieces with Noise (1 min)
+493,0.3529125338935245,Remove 12 Pieces with Noise (1 min)
+494,0.4957323710320057,Remove 12 Pieces with Noise (1 min)
+495,0.2615203732778692,Remove 12 Pieces with Noise (1 min)
+496,0.4906204306506459,Remove 12 Pieces with Noise (1 min)
+497,0.34215995446711756,Remove 12 Pieces with Noise (1 min)
+498,0.3975199868672157,Remove 12 Pieces with Noise (1 min)
+499,0.3204188715217747,Remove 12 Pieces with Noise (1 min)
+500,0.4161954230348483,Relaxation with Music (1 min)
+501,0.2957965372790585,Relaxation with Music (1 min)
+502,0.501264738861902,Relaxation with Music (1 min)
+503,0.37728844414506535,Relaxation with Music (1 min)
+504,0.395001521451495,Relaxation with Music (1 min)
+505,0.3271283067567683,Relaxation with Music (1 min)
+506,0.5082483221355237,Relaxation with Music (1 min)
+507,0.420374353929235,Relaxation with Music (1 min)
+508,0.25803429905162273,Relaxation with Music (1 min)
+509,0.29873708423693807,Relaxation with Music (1 min)
+510,0.31548652615339096,Relaxation with Music (1 min)
+511,0.4348766125716022,Relaxation with Music (1 min)
+512,0.31120926658486614,Relaxation with Music (1 min)
+513,0.2871080869005772,Relaxation with Music (1 min)
+514,0.669688722683644,Relaxation with Music (1 min)
+515,0.4859094281799245,Relaxation with Music (1 min)
+516,0.4998712728607311,Relaxation with Music (1 min)
+517,0.3953006067494084,Relaxation with Music (1 min)
+518,0.5311744193270629,Relaxation with Music (1 min)
+519,0.732078149558992,Relaxation with Music (1 min)
+520,0.44903094340807226,Relaxation with Music (1 min)
+521,0.5604703591412121,Relaxation with Music (1 min)
+522,0.5683292456095207,Relaxation with Music (1 min)
+523,0.7398623501043953,Relaxation with Music (1 min)
+524,0.4879034020831277,Relaxation with Music (1 min)
+525,0.33835989012107753,Relaxation with Music (1 min)
+526,0.4966624031504585,Relaxation with Music (1 min)
+527,0.0,Relaxation with Music (1 min)
+528,0.4630422311047648,Relaxation with Music (1 min)
+529,0.14871884740526953,Relaxation with Music (1 min)
+530,0.34212396894119196,Relaxation with Music (1 min)
+531,0.46515810451622475,Relaxation with Music (1 min)
+532,0.4081569055950066,Relaxation with Music (1 min)
+533,0.34550212254821844,Relaxation with Music (1 min)
+534,0.4402661889716203,Relaxation with Music (1 min)
+535,0.4240516845284954,Relaxation with Music (1 min)
+536,0.6164417948861158,Relaxation with Music (1 min)
+537,0.40834833097323825,Relaxation with Music (1 min)
+538,0.6375790257836248,Relaxation with Music (1 min)
+539,0.5823692641932625,Relaxation with Music (1 min)
+540,0.4656203337872831,Relaxation with Music (1 min)
+541,0.6564373471721997,Relaxation with Music (1 min)
+542,0.612488744859286,Relaxation with Music (1 min)
+543,0.452528110849156,Relaxation with Music (1 min)
+544,0.15334301715252827,Relaxation with Music (1 min)
+545,0.4442972510878788,Relaxation with Music (1 min)
+546,0.4478815281333142,Relaxation with Music (1 min)
+547,0.45996182333940294,Relaxation with Music (1 min)
+548,0.48209468555091406,Relaxation with Music (1 min)
+549,0.4577401418739472,Relaxation with Music (1 min)
+550,0.6891972467000359,Relaxation with Music (1 min)
+551,0.4998943870211759,Relaxation with Music (1 min)
+552,0.7594591523782418,Relaxation with Music (1 min)
+553,0.6854772620604526,Relaxation with Music (1 min)
+554,0.4817098822448052,Relaxation with Music (1 min)
+555,0.6808138687192099,Relaxation with Music (1 min)
+556,0.28634488450736256,Relaxation with Music (1 min)
+557,0.5022718481473013,Relaxation with Music (1 min)
+558,0.3581216342959197,Relaxation with Music (1 min)
+559,0.5146733431638634,Relaxation with Music (1 min)
+560,0.5165937997972637,
+561,0.5332549382852725,
+562,0.8629700658767057,
+563,0.563072032657849,
+564,0.5784319100765666,
+565,0.2844001558479819,
+566,0.3846848676116951,
+567,0.45168684242867707,
+568,0.7358664914154472,
+569,0.7988069112598278,
+570,0.8054450406762745,
+571,0.48469021734601414,
+572,0.5467798577315872,
+573,0.7553487117473882,
+574,0.995259943015216,
+575,0.25587185211712604,
+576,0.7652300153374932,
+577,0.5408974333492188,
+578,0.7716187901403686,
+579,0.5491067719141265,
+580,0.773201218358616,
+581,0.5389482278494906,
+582,0.7674940559831043,
+583,0.540580063125067,
+584,0.702952401595161,
+585,0.7084444958412084,
+586,0.7074398137584074,
+587,0.7846310772062671,
+588,0.5721432978342366,
+589,0.7185949492305178,
+590,0.7914178053595492,
+591,0.7273744466753431,
+592,0.5976044373362767,
+593,0.735197734172214,
+594,0.7357612047605281,
+595,0.7382732695531014,
+596,0.7420611439483155,
+597,0.7438709381225239,
+598,0.7391766204222542,
+599,0.8067835080645019,
+600,0.747408109458279,
+601,0.9979738791468318,
+602,0.7473645996042995,
+603,0.6984025366101035,
+604,0.7461500633828,
+605,0.6293127648229733,
+606,0.7429963540989774,
+607,0.7409114050465442,
+608,0.6064080629728543,
+609,0.7952471759295504,
+610,0.7411127729657886,
+611,0.988774781300281,
+612,0.9924882394617672,
+613,0.9994966521190031,
+614,0.995391551333865,
+615,0.9980862136789245,
+616,0.997863792024552,
+617,0.9976395724423293,
+618,0.9994966521190031,
+619,0.9957824927656551,
+620,0.9960424731328223,
+621,0.9976067782383379,
+622,0.9979110056099033,
+623,0.9982152329814687,
+624,0.9975699926345187,
+625,0.9968468660530896,
+626,0.9972084293438042,
+627,0.9975699926345187,
+628,0.9977025718342071,
+629,0.9954568161148344,
+630,0.9994966521190031,
+631,0.9957824927656551,
+632,0.9975093665074035,
+633,0.9959125908249098,
+634,0.9952610217719262,
+635,0.9982201233452219,
+636,0.9955220808958039,
+637,0.995391551333865,
+638,0.996888865647675,
+639,0.9996226509027588,
+640,0.997444101726434,
+641,0.9986960528265003,
+642,0.9977014391396611,
+643,0.9976379812761815,
+644,0.9975745234127019,
+645,0.9975093665074035,
+646,0.9981731614697695,
+647,0.9962369729676783,
+648,0.9994966521190031,
+649,0.9959125908249098,
+650,0.9975093665074035,
+651,0.9976352574154882,
+652,0.9982585990012205,
+653,0.9976375228045797,
+654,0.9831548903426275,
+655,0.9667903308411087,
+656,0.8771716822156411,
+657,0.9960424731328223,
+658,0.8985964377349851,
+659,0.9163122119331905,
+660,0.9148647361793937,
+661,0.9106486313287724,
+662,0.9955220808958039,
+663,0.8794534684091356,
+664,0.9956523947064005,
+665,0.9955220808958039,
+666,0.9955220808958039,
+667,0.9956523947064005,
+668,0.9955220808958039,
+669,0.9957824927656551,
+670,0.995391551333865,
+671,0.9957824927656551,
+672,0.9966897271589649,
+673,0.9955220808958039,
+674,0.9956523947064005,
+675,0.9956523947064005,
+676,0.9955220808958039,
+677,0.9956520710793875,
+678,0.995391551333865,
+679,0.995391551333865,
+680,0.995391551333865,
+681,0.995391551333865,
+682,0.995391551333865,
+683,0.9956523947064005,
+684,0.9959125908249098,
+685,0.9955220808958039,
+686,0.9983564062762819,
+687,0.9973335291636347,
+688,0.995391551333865,
+689,0.9890967901782869,
+690,0.9974619012121531,
+691,0.9989911467245858,
+692,1.0,
+693,0.9997484339351725,
+694,0.9982288972331319,
+695,0.9911414656468711,
+696,0.9983564062762819,
+697,0.9983564062762819,
+698,0.9944746081301631,
+699,0.99873763889768,
+700,0.9996226509027588,
+701,0.9994966521190031,
+702,0.9994966521190031,
+703,0.9991177927623678,
+704,0.9992442230488076,
+705,0.9996226509027588,
+706,0.9994966521190031,
+707,0.9992442230488076,
+708,0.9998742169675863,
+709,0.9993704375839052,
+710,0.9993704375839052,
+711,0.99873763889768,
+712,0.9934178580568145,
+713,0.9993704375839052,
+714,0.9979738791468318,
+715,0.9991177927623678,
+716,0.9975900575093292,
+717,0.9981013881899818,
+718,0.9994966521190031,
+719,0.9994966521190031,
+720,0.9169607604673853,
+721,0.9082295194060644,
+722,0.9347434175816254,
+723,0.9252382764563802,
+724,0.9258904927633897,
+725,0.9219349076582908,
+726,0.9181051055856053,
+727,0.925455969560506,
+728,0.9146472588266097,
+729,0.9217122522732977,
+730,0.9252382764563802,
+731,0.9245830396305819,
+732,0.9230438695564148,
