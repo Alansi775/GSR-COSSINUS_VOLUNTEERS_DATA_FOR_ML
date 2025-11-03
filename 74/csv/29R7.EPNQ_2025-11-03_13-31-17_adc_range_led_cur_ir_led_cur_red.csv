@@ -1,0 +1,13 @@
+df_hash,22ZHK4.DV5PWR
+device,HZ2X61
+project_hash,29R7
+project_name,istanbul_aydin_university
+person_hash,29R7.EPNQ
+person_label,V74 (2)
+date_time_start,2025-11-03_13-31-17.499000_+03
+date_time_start_unix,1762162277.499
+date_time_end,2025-11-03_13-39-35.191000_+03
+length_difference_noticed,no
+
+time,adc_range,led_cur_ir,led_cur_red
+4.853,2,29.766,29.766
