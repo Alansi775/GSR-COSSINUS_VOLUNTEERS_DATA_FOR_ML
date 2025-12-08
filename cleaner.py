@@ -115,6 +115,13 @@ def process_cossinus_hr(file_path, stage_df):
     return df_merged[['Time_sec', 'HeartRate_BPM', 'Stage']]
 
 
+def fill_missing_values(df, column_name):
+    """تملأ الفراغات (NaN) في عمود باستخدام interpolation خطي."""
+    if column_name in df.columns and df[column_name].isna().any():
+        # interpolation خطي لملء الفراغات
+        df[column_name] = df[column_name].interpolate(method='linear', limit_direction='both')
+    return df
+
 def normalize_data(df, column_name):
     """تطبق التطبيع (Normalization) على عمود بين 0 و 1."""
     data_clean = df[[column_name]].dropna()
@@ -194,18 +201,21 @@ def process_and_plot_volunteer(volunteer_id):
     merged_df['Stage'] = merged_df['Time_sec'].apply(get_stage)
     merged_df.sort_values(by='Time_sec', inplace=True)
     
-    # 5. التطبيع (Normalization)
+    # 5. ملء الفراغات في Heart Rate (interpolation خطي)
+    merged_df = fill_missing_values(merged_df, 'HeartRate_BPM')
+    
+    # 6. التطبيع (Normalization)
     merged_df = normalize_data(merged_df, 'Resistance_Ohm')
     if 'HeartRate_BPM' in merged_df.columns:
         merged_df = normalize_data(merged_df, 'HeartRate_BPM')
         
-    # 6. حفظ البيانات النظيفة
+    # 7. حفظ البيانات النظيفة
     cleaned_file_name = f'cleaned_data_{volunteer_id}.csv'
     cleaned_file_path = os.path.join(CLEANED_DIR, cleaned_file_name)
     merged_df.to_csv(cleaned_file_path, index=False)
     print(f"  -> تم حفظ البيانات النظيفة في: {cleaned_file_path}")
     
-    # 7. الرسم البياني
+    # 8. الرسم البياني
     multi_file_check = len(gsr_files) > 1 or len(hr_files) > 1 
     multi_file_note = " (Data Merged from Multiple Files)" if multi_file_check else ""
     
