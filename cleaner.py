@@ -66,14 +66,14 @@ def process_cossinus_hr(file_path, stage_df):
     """ينظف ملف Heart Rate ويوحده زمنياً مع بيانات Stage. (تم التعديل النهائي)"""
     print(f"  -> معالجة Cossinus HR: {os.path.basename(file_path)}")
     
-    # 🛑 الحل النهائي: تخطي 10 صفوف من الميتاداتا لجميع ملفات Heart Rate.
-    skip_rows = 10 
+    # 🛑 الحل النهائي: تخطي 11 سطر من الميتاداتا (الـ header + 10 metadata)
+    skip_rows = 11 
 
     try:
-        # قراءة الملف مع تخطي الصفوف العشرة الأولى. 
-        # السطر الحادي عشر (الإندكس 10 بعد التخطي) سيصبح رأس الأعمدة.
+        # قراءة الملف مع تخطي أول 11 سطر (10 metadata + 1 header)
+        # السطر 12 (الإندكس 11 بعد التخطي) سيصبح رأس الأعمدة الفعلي
         df = pd.read_csv(file_path, skiprows=skip_rows, header=0)
-        print(f"  -> ملاحظة: تم تخطي أول {skip_rows} صفوف من الميتاداتا في ملف HR.")
+        print(f"  -> ملاحظة: تم تخطي أول {skip_rows} سطر من الميتاداتا في ملف HR.")
     except Exception as e:
         print(f"--- ❌ خطأ في قراءة ملف HR بعد التخطي: {e}")
         return None 
@@ -116,10 +116,11 @@ def process_cossinus_hr(file_path, stage_df):
 
 
 def fill_missing_values(df, column_name):
-    """تملأ الفراغات (NaN) في عمود باستخدام interpolation خطي."""
+    """تملأ الفراغات (NaN) في عمود باستخدام interpolation خطي فقط بين النقاط الموجودة."""
     if column_name in df.columns and df[column_name].isna().any():
-        # interpolation خطي لملء الفراغات
-        df[column_name] = df[column_name].interpolate(method='linear', limit_direction='both')
+        # forward fill ثم backward fill للفراغات بين البيانات الموجودة فقط
+        # لا نملأ الفراغات في البداية أو النهاية
+        df[column_name] = df[column_name].interpolate(method='linear', limit_area='inside')
     return df
 
 def normalize_data(df, column_name):
