@@ -85,8 +85,17 @@ def process_gsr(file_path):
     if 'Conductance (µS)' in df.columns:
         df.rename(columns={'Time (s)': 'Time_sec', 'Conductance (µS)': 'Conductance_microS'}, inplace=True)
     else:
-        # وإلا تحويل من Resistance إلى Conductance
-        df.rename(columns={'Time (s)': 'Time_sec', 'Resistance (Ω)': 'Conductance_microS'}, inplace=True)
+        # وإلا تحويل من Resistance (Ω) إلى Conductance (µS)
+        # Conductance (S) = 1 / Resistance (Ω)
+        # Conductance (µS) = (1 / Resistance) * 1e6
+        df.rename(columns={'Time (s)': 'Time_sec', 'Resistance (Ω)': 'Resistance_Ohm'}, inplace=True)
+        # تأكد من أن القيم عددية
+        df['Resistance_Ohm'] = pd.to_numeric(df['Resistance_Ohm'], errors='coerce')
+        # تجنب القسمة على صفر
+        df.loc[df['Resistance_Ohm'] <= 0, 'Resistance_Ohm'] = np.nan
+        df['Conductance_microS'] = (1.0 / df['Resistance_Ohm']) * 1e6
+        # بعد التحويل يمكن إسقاط عمود Resistance_Ohm إذا أردنا
+        # df.drop(columns=['Resistance_Ohm'], inplace=True)
     
     # 1. إصلاح الوقت وتوحيده (التقريب لأقرب ثانية صحيحة)
     df['Time_sec'] = df['Time_sec'].round(0).astype(int)
