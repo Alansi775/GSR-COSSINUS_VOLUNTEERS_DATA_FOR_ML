@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/mackbook/Projects/GSR-COSSINUS_VOLUNTEERS_DATA_FOR_ML/cleaner.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'

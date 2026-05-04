@@ -36,6 +36,30 @@ def get_stage(time_sec):
             return stage
     return None
 
+def normalize_stage_name(stage_str):
+    """تطبيع أسماء المراحل من أشكال مختلفة إلى الشكل الموحد."""
+    if pd.isna(stage_str):
+        return None
+    stage_lower = str(stage_str).lower().strip()
+    if 'calib' in stage_lower:
+        return 'Calibration'
+    elif 'normal' in stage_lower:
+        return 'Normal'
+    elif 'stress' in stage_lower:
+        return 'Stress'
+    elif 'relax' in stage_lower:
+        return 'Relaxation'
+    return stage_str
+
+def has_video(volunteer_dir):
+    """تتحقق من وجود فيديو للمتطوع (webm أو mp4)."""
+    video_extensions = ['*.webm', '*.mp4', '*.avi', '*.mov']
+    for ext in video_extensions:
+        videos = glob.glob(os.path.join(volunteer_dir, ext))
+        if videos:
+            return True
+    return False
+
 def find_cossinus_files(volunteer_dir):
     """تجد جميع ملفات Heart Rate داخل مجلد المتطوع."""
     # البحث المتكرر (recursive) عن الملفات التي تنتهي بـ heart_rate.csv
@@ -52,7 +76,17 @@ def process_gsr(file_path):
     """ينظف ملف GSR ويوحد عمود الوقت والمرحلة."""
     print(f"  -> معالجة GSR: {os.path.basename(file_path)}")
     df = pd.read_csv(file_path)
-    df.rename(columns={'Time (s)': 'Time_sec', 'Resistance (Ω)': 'Conductance_microS'}, inplace=True)
+    
+    # التعامل مع أسماء الأعمدة المختلفة (قديم وجديد)
+    # للملفات القديمة: Time (s), Resistance (Ω), Stage
+    # للملفات الجديدة: Time (s), Resistance (Ω), Conductance (µS), Stage
+    
+    # إذا كان الملف الجديد يحتوي على Conductance، استخدمها مباشرة
+    if 'Conductance (µS)' in df.columns:
+        df.rename(columns={'Time (s)': 'Time_sec', 'Conductance (µS)': 'Conductance_microS'}, inplace=True)
+    else:
+        # وإلا تحويل من Resistance إلى Conductance
+        df.rename(columns={'Time (s)': 'Time_sec', 'Resistance (Ω)': 'Conductance_microS'}, inplace=True)
     
     # 1. إصلاح الوقت وتوحيده (التقريب لأقرب ثانية صحيحة)
     df['Time_sec'] = df['Time_sec'].round(0).astype(int)
@@ -266,8 +300,13 @@ def process_and_plot_volunteer(volunteer_id):
     
     volunteer_dir = os.path.join(BASE_DIR, str(volunteer_id))
     
-    # 1. البحث عن ملفات GSR
+    # 1. البحث عن ملفات GSR (دعم أسماء مختلفة: GSR_*.csv و V*.csv)
     gsr_files = glob.glob(os.path.join(volunteer_dir, 'GSR_*.csv'))
+    if not gsr_files:
+        # البحث عن الملفات الجديدة بنمط V*.csv
+        gsr_files = glob.glob(os.path.join(volunteer_dir, f'{volunteer_id}.csv'))
+    if not gsr_files:
+        gsr_files = glob.glob(os.path.join(volunteer_dir, 'V*.csv'))
     
     if not gsr_files:
         print(f"--- ⚠️ تحذير: لم يتم العثور على ملفات GSR للمتطوع {volunteer_id}، سيتم تخطي المعالجة.")
@@ -279,8 +318,12 @@ def process_and_plot_volunteer(volunteer_id):
     df_gsr_raw.drop_duplicates(subset=['Time_sec'], keep='first', inplace=True)
 
     # 2. تحديد جنس المتطوع (للرسم فقط)
-    is_female = any('_f.csv' in os.path.basename(f).lower() for f in gsr_files)
+    is_female = any('_f' in str(volunteer_id).lower() for _ in [1]) or any('_f.csv' in os.path.basename(f).lower() for f in gsr_files)
     gender_label = 'Girl' if is_female else 'Boy'
+    
+    # 2.5. كشف الفيديو
+    video_available = has_video(volunteer_dir)
+    video_note = ' [Video Available]' if video_available else ''
     
     # 3. البحث ومعالجة ملفات RR Intervals (الأولوية للملفات المباشرة من الجهاز)
     rr_files = find_rr_interval_files(volunteer_dir)
@@ -357,17 +400,34 @@ def process_and_plot_volunteer(volunteer_id):
     merged_df[cols_to_save].to_csv(cleaned_file_path, index=False)
     print(f"  -> تم حفظ البيانات النظيفة في: {cleaned_file_path}")
     
-    # 9. الرسم البياني
+    # 9. التحقق من اكتمالية البيانات قبل الرسم
+    min_gsr_data = 100  # حد أدنى من نقاط GSR
+    min_rr_data = 50    # حد أدنى من نقاط RR
+    
+    gsr_count = merged_df['Conductance_microS'].notna().sum()
+    rr_count = merged_df['RR_Interval_ms'].notna().sum()
+    
+    if gsr_count < min_gsr_data:
+        print(f"--- ⚠️ تحذير: بيانات GSR ناقصة جداً ({gsr_count} نقطة فقط)، سيتم تخطي الرسم لتجنب القرافات المشوهة.")
+        return
+    
+    if rr_count < min_rr_data:
+        print(f"--- ⚠️ تحذير: بيانات RR ناقصة ({rr_count} نقطة فقط)، سيتم رسم GSR فقط.")
+    
+    # 10. الرسم البياني
     multi_file_check = len(gsr_files) > 1 or len(rr_files) > 1 
     multi_file_note = " (Data Merged from Multiple Files)" if multi_file_check else ""
     
-    plot_combined_data(merged_df, volunteer_id, gender_label, multi_file_note)
+    plot_combined_data(merged_df, volunteer_id, gender_label, multi_file_note, video_note)
     
-    # 10. رسم منفصل للـ Heart Rate (NN Intervals) بالدقائق
-    plot_heart_rate_nn_interval(merged_df, volunteer_id, gender_label, multi_file_note)
+    # 11. رسم منفصل للـ Heart Rate (NN Intervals) إذا كانت البيانات كافية
+    if rr_count >= min_rr_data:
+        plot_heart_rate_nn_interval(merged_df, volunteer_id, gender_label, multi_file_note, video_note)
+    else:
+        print(f"  -> لم يتم رسم NN Intervals لأن بيانات RR ناقصة.")
 
 
-def plot_combined_data(df, volunteer_id, gender_label, multi_file_note):
+def plot_combined_data(df, volunteer_id, gender_label, multi_file_note, video_note=''):
     """تنشئ الرسم البياني."""
     
     # Debug: اطبع الأعمدة الموجودة
@@ -424,7 +484,7 @@ def plot_combined_data(df, volunteer_id, gender_label, multi_file_note):
                  transform=ax.get_xaxis_transform())
 
     # إعداد القراف
-    title = f'Normalized Biometric Data (GSR Conductance & Heart Rate) for V.{volunteer_id} ({gender_label}) during Doctor Game Task{multi_file_note}'
+    title = f'Normalized Biometric Data (GSR Conductance & Heart Rate) for V.{volunteer_id} ({gender_label}) during Doctor Game Task{multi_file_note}{video_note}'
     plt.title(title, fontsize=16, pad=30)
     plt.xlabel('Session Time (Seconds)', fontsize=12)
     plt.ylabel('Normalized Value (0 to 1)', fontsize=12)
@@ -440,7 +500,7 @@ def plot_combined_data(df, volunteer_id, gender_label, multi_file_note):
     print(f"  -> تم حفظ الرسم البياني في: {plot_file_path}")
 
 
-def plot_heart_rate_nn_interval(df, volunteer_id, gender_label, multi_file_note):
+def plot_heart_rate_nn_interval(df, volunteer_id, gender_label, multi_file_note, video_note=''):
     """تنشئ رسم بياني منفصل للـ Heart Rate RR Intervals بالدقائق (مثل الورقة العلمية)."""
     
     # نستخدم الثواني (للمواءمة مع الرسم الأول)
@@ -490,7 +550,7 @@ def plot_heart_rate_nn_interval(df, volunteer_id, gender_label, multi_file_note)
                  fontweight='bold')
     
     # إعداد القراف
-    title = f'Heart Rate Variability (NN Intervals) for V.{volunteer_id} ({gender_label}) during Doctor Game Task{multi_file_note}'
+    title = f'Heart Rate Variability (NN Intervals) for V.{volunteer_id} ({gender_label}) during Doctor Game Task{multi_file_note}{video_note}'
     plt.title(title, fontsize=16, pad=20)
     plt.xlabel('Session Time (Seconds)', fontsize=12)
     plt.ylabel('NN Interval (Milliseconds)', fontsize=12)
@@ -515,15 +575,29 @@ def main():
     Path(CLEANED_DIR).mkdir(parents=True, exist_ok=True)
     print(f"تم إنشاء مجلد البيانات النظيفة في: {CLEANED_DIR}")
 
-    # العثور على جميع مجلدات المتطوعين التي تحتوي على أرقام
-    volunteer_folders = [d for d in os.listdir(BASE_DIR) if os.path.isdir(os.path.join(BASE_DIR, d)) and d.isdigit()]
-    volunteer_ids = sorted([int(v) for v in volunteer_folders])
+    # العثور على جميع مجلدات المتطوعين (أرقام أو Vxxxx)
+    volunteer_folders = [d for d in os.listdir(BASE_DIR) if os.path.isdir(os.path.join(BASE_DIR, d)) and (d.isdigit() or d.upper().startswith('V'))]
     
-    for vid in volunteer_ids:
+    # تحويل إلى أرقام وترتيب
+    volunteer_ids = []
+    for v in volunteer_folders:
+        if v.isdigit():
+            volunteer_ids.append((int(v), v))
+        elif v.upper().startswith('V'):
+            try:
+                volunteer_ids.append((int(v[1:]), v))  # استخراج الرقم من V###
+            except ValueError:
+                pass
+    
+    volunteer_ids = sorted(volunteer_ids, key=lambda x: x[0])
+    
+    for _, vid in volunteer_ids:
         try:
             process_and_plot_volunteer(vid)
         except Exception as e:
             print(f"--- ❌ خطأ فادح غير متوقع في معالجة المتطوع {vid}: {e}")
+            import traceback
+            traceback.print_exc()
             print(f"تم تخطي المتطوع {vid}.")
 
 if __name__ == '__main__':

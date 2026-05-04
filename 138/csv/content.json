@@ -1,0 +1,102 @@
+[
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_ppg_quality.csv",
+    "size_bytes": 3088,
+    "sha256": "53ec528428ca486ef6951a4bc154cc71b1e0ef17a3986801ee394dcf72b492a8"
+  },
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_perfusion_ir.csv",
+    "size_bytes": 589,
+    "sha256": "dc17200c78624a9514062ae724090e46891997322c11305f5bf91a0da1cc5eaf"
+  },
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_acc_dev.csv",
+    "size_bytes": 304,
+    "sha256": "e6a0210508db440065bce1d936ebb59b8462e7d785456e43305275445050f780"
+  },
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_battery.csv",
+    "size_bytes": 823,
+    "sha256": "687a1fbc4ba743718862d0420be5dd1364e30768219e8ff7ac9359b3cfdc9fcf"
+  },
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_heart_rate.csv",
+    "size_bytes": 5234,
+    "sha256": "cba3de92390c2baa4ea3daf493685168279fd54f84a9687f087c6536f756b6e2"
+  },
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_acc_x_acc_y_acc_z.csv",
+    "size_bytes": 1313012,
+    "sha256": "311c9f88e6f4948a21ff119153b1a72fa2b9bf3d33f90c567f501eb4751a75ed"
+  },
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_adc_range_led_cur_ir_led_cur_red.csv",
+    "size_bytes": 351,
+    "sha256": "7eff73967ee8d611b39c86ad8c82cb975efb26c28bd9b6fd3050f07a10d517d9"
+  },
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_temperature.csv",
+    "size_bytes": 7423,
+    "sha256": "567976c83b3fdb23aa205343b843579e612c283e2d8f5eae989ff250c170a4a2"
+  },
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_quality_max.csv",
+    "size_bytes": 308,
+    "sha256": "2126712ab4c38c8c289142ac6e6c3f7646543556e102ab383949645d74f15d80"
+  },
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_ble_sample_counter_ble_sample_amount_ble_packet_counter.csv",
+    "size_bytes": 29355,
+    "sha256": "6d0731b3b8fdcfee9e0cc1c9ec6f48060eb578769014fa87c0b7366648b74cae"
+  },
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_tech_perfusion_ir.csv",
+    "size_bytes": 314,
+    "sha256": "496273f266b1c7e48b0281d073887c512f74c85cafffcf1cbcac83c735f9ba03"
+  },
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_spo2.csv",
+    "size_bytes": 521,
+    "sha256": "453aa522800f1ea450db1503d4de3cf5e91200ab18a111f6766bf00a6928d851"
+  },
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_rr_int.csv",
+    "size_bytes": 10416,
+    "sha256": "8b96f97a9a3bdf6ac6c482ecb045c11f63ca75059665266e040c45306ccb96a7"
+  },
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_ble_sample_counter_acc_ble_sample_amount_acc_ble_packet_counter_acc.csv",
+    "size_bytes": 13541,
+    "sha256": "1c19bf14c02510b6a87d4ff51d8b5ced0e2bd5e33ce7eeaca5039e4a01da7dad"
+  },
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_quality.csv",
+    "size_bytes": 5157,
+    "sha256": "a7e812c035e3f2aac4d860d5424c3ec4ef193e365c71e0e1e330887a5cae9afd"
+  },
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_ppg_med.csv",
+    "size_bytes": 234679,
+    "sha256": "7d86e9f0d52074b51af69cafff8cab6bd5ae65259bda16360945902e32f13faf"
+  },
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_respiration_rate.csv",
+    "size_bytes": 313,
+    "sha256": "876bb26da8d464b9490f193da7d6d9b7361da6a3d06837d532d59b71ee8819db"
+  },
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_ppg_ir_ppg_ambient_ppg_red.csv",
+    "size_bytes": 2497732,
+    "sha256": "da3fe64e1e710128efa40150a070c566dcce76d6fcfbbb2acb13221770fbab8d"
+  },
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_omega.csv",
+    "size_bytes": 582,
+    "sha256": "eb6e1281f4b0f785bda552026311228e6c383719d5ce6341a9cca5b24cefc176"
+  },
+  {
+    "name": "29R7.LYXY_2026-04-14_15-48-30_acc_mag.csv",
+    "size_bytes": 223048,
+    "sha256": "a40b4e8716edf24a737679abc12c0cdb1b090c5b70738a081db77d208cd9ca61"
+  }
+]

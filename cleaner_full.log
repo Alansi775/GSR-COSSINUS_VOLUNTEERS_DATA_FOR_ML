@@ -1,0 +1,1739 @@
+تم إنشاء مجلد البيانات النظيفة في: ./cleaned_data
+
+==============================================
+بدء معالجة المتطوع رقم 35
+==============================================
+  -> معالجة GSR: GSR_35_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.WYNA_2025-10-27_12-12-22_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1405.0 ملليثانية (163 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_35.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 169 non-null من 475
+  -> RR_Interval_ms_Normalized values: 169 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_35.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_35_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 36
+==============================================
+  -> معالجة GSR: GSR_36_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.HAY6_2025-10-27_12-32-17_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1480.0 ملليثانية (408 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_36.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 422 non-null من 499
+  -> RR_Interval_ms_Normalized values: 422 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_36.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_36_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 37
+==============================================
+  -> معالجة GSR: GSR_37_f_main.csv
+  -> معالجة GSR: GSR_37_f_relax.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.3H5E_2025-10-27_12-49-40_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1810.0 ملليثانية (410 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_37.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 480 non-null من 480
+  -> RR_Interval_ms_Normalized values: 480 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_37.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_37_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 38
+==============================================
+  -> معالجة GSR: GSR_38_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.0QNP_2025-10-27_13-06-31_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1935.0 ملليثانية (392 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_38.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 479 non-null من 497
+  -> RR_Interval_ms_Normalized values: 479 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_38.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_38_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 39
+==============================================
+  -> معالجة GSR: GSR_39_f_finalRelax.csv
+  -> معالجة GSR: GSR_39_f_stress.csv
+  -> معالجة GSR: GSR_39_f_initRelax.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.J83X_2025-10-27_13-20-19_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 305.0 - 1825.0 ملليثانية (389 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_39.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 421 non-null من 421
+  -> RR_Interval_ms_Normalized values: 421 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_39.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_39_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 40
+==============================================
+  -> معالجة GSR: GSR_40_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.F30J_2025-10-27_13-34-00_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 305.0 - 1990.0 ملليثانية (407 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_40.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 475 non-null من 494
+  -> RR_Interval_ms_Normalized values: 475 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_40.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_40_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 41
+==============================================
+  -> معالجة GSR: GSR_41.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.EM1Q_2025-10-27_13-47-49_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1970.0 ملليثانية (403 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_41.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 476 non-null من 498
+  -> RR_Interval_ms_Normalized values: 476 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_41.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_41_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 42
+==============================================
+  -> معالجة GSR: GSR_42.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.T31E_2025-10-27_14-12-39_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1830.0 ملليثانية (448 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_42.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 471 non-null من 500
+  -> RR_Interval_ms_Normalized values: 471 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_42.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_42_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 43
+==============================================
+  -> معالجة GSR: GSR_43_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.3DZJ_2025-10-27_14-26-26_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 325.0 - 1880.0 ملليثانية (372 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_43.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 444 non-null من 491
+  -> RR_Interval_ms_Normalized values: 444 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_43.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_43_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 44
+==============================================
+  -> معالجة GSR: GSR_44.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.XKHD_2025-10-27_14-47-56_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1970.0 ملليثانية (433 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_44.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 487 non-null من 487
+  -> RR_Interval_ms_Normalized values: 487 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_44.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_44_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 45
+==============================================
+  -> معالجة GSR: GSR_45_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.G6QH_2025-10-27_15-00-12_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1715.0 ملليثانية (459 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_45.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 497 non-null من 500
+  -> RR_Interval_ms_Normalized values: 497 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_45.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_45_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 46
+==============================================
+  -> معالجة GSR: GSR_46.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.9DLG_2025-10-27_15-17-34_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1830.0 ملليثانية (433 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_46.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 468 non-null من 498
+  -> RR_Interval_ms_Normalized values: 468 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_46.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_46_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 47
+==============================================
+  -> معالجة GSR: GSR_47.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.JA8X_2025-10-30_17-18-53_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 335.0 - 1760.0 ملليثانية (485 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_47.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 499 non-null من 499
+  -> RR_Interval_ms_Normalized values: 499 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_47.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_47_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 48
+==============================================
+  -> معالجة GSR: GSR_48_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.38QT_2025-10-30_17-40-51_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1860.0 ملليثانية (379 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_48.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 477 non-null من 500
+  -> RR_Interval_ms_Normalized values: 477 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_48.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_48_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 49
+==============================================
+  -> معالجة GSR: GSR_49_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.SU53_2025-10-30_17-54-05_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 305.0 - 1910.0 ملليثانية (378 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_49.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 494 non-null من 494
+  -> RR_Interval_ms_Normalized values: 494 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_49.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_49_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 50
+==============================================
+  -> معالجة GSR: GSR_50.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.GK30_2025-10-30_18-06-46_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1875.0 ملليثانية (420 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_50.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 477 non-null من 498
+  -> RR_Interval_ms_Normalized values: 477 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_50.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_50_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 51
+==============================================
+  -> معالجة GSR: GSR_51.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.BXYU_2025-10-30_18-20-01_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1915.0 ملليثانية (463 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_51.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 500 non-null من 500
+  -> RR_Interval_ms_Normalized values: 500 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_51.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_51_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 52
+==============================================
+  -> معالجة GSR: GSR_52_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.NQB8_2025-10-30_18-35-51_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1825.0 ملليثانية (403 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_52.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 480 non-null من 499
+  -> RR_Interval_ms_Normalized values: 480 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_52.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_52_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 53
+==============================================
+  -> معالجة GSR: GSR_53.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.F6U0_2025-10-31_14-12-01_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 305.0 - 1530.0 ملليثانية (476 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_53.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 480 non-null من 499
+  -> RR_Interval_ms_Normalized values: 480 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_53.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_53_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 54
+==============================================
+  -> معالجة GSR: GSR_54.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.V73B_2025-10-31_14-24-46_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 305.0 - 1260.0 ملليثانية (464 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_54.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 470 non-null من 499
+  -> RR_Interval_ms_Normalized values: 470 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_54.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_54_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 55
+==============================================
+  -> معالجة GSR: GSR_55.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.FQLE_2025-10-31_14-37-37_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 305.0 - 1560.0 ملليثانية (434 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_55.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 492 non-null من 492
+  -> RR_Interval_ms_Normalized values: 492 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_55.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_55_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 56
+==============================================
+  -> معالجة GSR: GSR_56_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.RVYZ_2025-10-31_14-49-46_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1930.0 ملليثانية (393 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_56.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 479 non-null من 498
+  -> RR_Interval_ms_Normalized values: 479 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_56.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_56_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 57
+==============================================
+  -> معالجة GSR: GSR_57.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.5CYM_2025-10-31_15-01-59_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1765.0 ملليثانية (368 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_57.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 474 non-null من 482
+  -> RR_Interval_ms_Normalized values: 474 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_57.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_57_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 58
+==============================================
+  -> معالجة GSR: GSR_58.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.Y4CB_2025-10-31_15-16-19_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1705.0 ملليثانية (397 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_58.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 467 non-null من 499
+  -> RR_Interval_ms_Normalized values: 467 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_58.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_58_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 59
+==============================================
+  -> معالجة GSR: GSR_59_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.3VJX_2025-10-31_15-29-03_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1845.0 ملليثانية (388 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_59.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 457 non-null من 498
+  -> RR_Interval_ms_Normalized values: 457 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_59.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_59_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 60
+==============================================
+  -> معالجة GSR: GSR_60.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.5VZS_2025-10-31_15-42-49_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1955.0 ملليثانية (384 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_60.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 493 non-null من 498
+  -> RR_Interval_ms_Normalized values: 493 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_60.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_60_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 61
+==============================================
+  -> معالجة GSR: GSR_61.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.U6PK_2025-10-31_15-57-37_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1840.0 ملليثانية (441 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_61.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 499 non-null من 499
+  -> RR_Interval_ms_Normalized values: 499 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_61.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_61_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 62
+==============================================
+  -> معالجة GSR: GSR_62.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.VZ79_2025-10-31_16-10-53_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1840.0 ملليثانية (438 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_62.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 498 non-null من 498
+  -> RR_Interval_ms_Normalized values: 498 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_62.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_62_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 63
+==============================================
+  -> معالجة GSR: GSR_63.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.WA30_2025-10-31_16-24-10_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1905.0 ملليثانية (436 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_63.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 473 non-null من 492
+  -> RR_Interval_ms_Normalized values: 473 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_63.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_63_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 64
+==============================================
+  -> معالجة GSR: GSR_64_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.UU8F_2025-10-31_16-37-26_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1890.0 ملليثانية (427 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_64.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 479 non-null من 500
+  -> RR_Interval_ms_Normalized values: 479 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_64.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_64_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 65
+==============================================
+  -> معالجة GSR: GSR_65.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.JBFB_2025-10-31_16-53-13_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 305.0 - 1685.0 ملليثانية (412 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_65.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 477 non-null من 499
+  -> RR_Interval_ms_Normalized values: 477 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_65.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_65_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 66
+==============================================
+  -> معالجة GSR: GSR_66.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.YWVP_2025-10-31_17-05-59_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1425.0 ملليثانية (462 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_66.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 500 non-null من 500
+  -> RR_Interval_ms_Normalized values: 500 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_66.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_66_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 67
+==============================================
+  -> معالجة GSR: GSR_67.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.UH07_2025-10-31_17-31-54_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1680.0 ملليثانية (402 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_67.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 478 non-null من 496
+  -> RR_Interval_ms_Normalized values: 478 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_67.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_67_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 68
+==============================================
+  -> معالجة GSR: GSR_68.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.W7UH_2025-10-31_17-48-12_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1990.0 ملليثانية (430 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_68.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 480 non-null من 499
+  -> RR_Interval_ms_Normalized values: 480 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_68.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_68_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 69
+==============================================
+  -> معالجة GSR: GSR_69.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.VAEV_2025-11-03_11-46-34_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1745.0 ملليثانية (440 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_69.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 499 non-null من 499
+  -> RR_Interval_ms_Normalized values: 499 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_69.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_69_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 70
+==============================================
+  -> معالجة GSR: GSR_70_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.SM8F_2025-11-03_12-30-35_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1645.0 ملليثانية (436 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_70.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 499 non-null من 499
+  -> RR_Interval_ms_Normalized values: 499 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_70.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_70_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 71
+==============================================
+  -> معالجة GSR: GSR_71_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.BF8U_2025-11-03_12-44-51_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1915.0 ملليثانية (387 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_71.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 494 non-null من 494
+  -> RR_Interval_ms_Normalized values: 494 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_71.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_71_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 72
+==============================================
+  -> معالجة GSR: GSR_72_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.CN3T_2025-11-03_12-57-37_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1895.0 ملليثانية (426 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_72.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 497 non-null من 497
+  -> RR_Interval_ms_Normalized values: 497 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_72.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_72_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 73
+==============================================
+  -> معالجة GSR: GSR_73.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.V8T1_2025-11-03_13-10-52_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 305.0 - 1985.0 ملليثانية (416 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_73.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 496 non-null من 496
+  -> RR_Interval_ms_Normalized values: 496 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_73.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_73_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 74
+==============================================
+  -> معالجة GSR: GSR_74.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.EPNQ_2025-11-03_13-31-17_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1805.0 ملليثانية (436 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_74.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 481 non-null من 498
+  -> RR_Interval_ms_Normalized values: 481 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_74.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_74_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 75
+==============================================
+  -> معالجة GSR: GSR_75_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.H46Y_2025-11-03_13-45-05_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1835.0 ملليثانية (443 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_75.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 481 non-null من 498
+  -> RR_Interval_ms_Normalized values: 481 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_75.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_75_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 76
+==============================================
+  -> معالجة GSR: GSR_76_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.BHA8_2025-11-03_13-57-52_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1830.0 ملليثانية (423 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_76.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 482 non-null من 494
+  -> RR_Interval_ms_Normalized values: 482 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_76.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_76_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 77
+==============================================
+  -> معالجة GSR: GSR_77_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.FPTK_2025-11-03_14-11-39_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1915.0 ملليثانية (422 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_77.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 477 non-null من 497
+  -> RR_Interval_ms_Normalized values: 477 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_77.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_77_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 78
+==============================================
+  -> معالجة GSR: GSR_78.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.YU3D_2025-11-03_14-27-12_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1825.0 ملليثانية (445 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_78.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 496 non-null من 496
+  -> RR_Interval_ms_Normalized values: 496 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_78.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_78_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 79
+==============================================
+  -> معالجة GSR: GSR_79.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.SGEY_2025-11-03_15-27-37_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1990.0 ملليثانية (398 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_79.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 475 non-null من 499
+  -> RR_Interval_ms_Normalized values: 475 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_79.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_79_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 80
+==============================================
+  -> معالجة GSR: GSR_80_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.KJ8S_2025-11-03_15-40-52_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1635.0 ملليثانية (412 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_80.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 484 non-null من 499
+  -> RR_Interval_ms_Normalized values: 484 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_80.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_80_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 81
+==============================================
+  -> معالجة GSR: GSR_81_f.csv
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_81.csv
+--- ⚠️ تحذير: بيانات RR ناقصة (0 نقطة فقط)، سيتم رسم GSR فقط.
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'HeartRate_BPM', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 0 non-null من 499
+  -> RR_Interval_ms_Normalized values: 0 non-null
+  -> ملاحظة: لم يتم رسم Heart Rate للمتطوع 81 (بيانات مفقودة).
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_81.png
+  -> لم يتم رسم NN Intervals لأن بيانات RR ناقصة.
+
+==============================================
+بدء معالجة المتطوع رقم 82
+==============================================
+  -> معالجة GSR: GSR_82.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.F750_2025-11-03_16-41-10_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 310.0 - 1300.0 ملليثانية (487 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_82.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 498 non-null من 498
+  -> RR_Interval_ms_Normalized values: 498 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_82.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_82_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 83
+==============================================
+  -> معالجة GSR: GSR_83_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.KMKG_2025-11-03_17-01-15_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1715.0 ملليثانية (431 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_83.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 482 non-null من 499
+  -> RR_Interval_ms_Normalized values: 482 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_83.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_83_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 84
+==============================================
+  -> معالجة GSR: GSR_84.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.M000_2025-11-03_17-16-01_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 310.0 - 1790.0 ملليثانية (465 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_84.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 498 non-null من 499
+  -> RR_Interval_ms_Normalized values: 498 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_84.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_84_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 85
+==============================================
+  -> معالجة GSR: GSR_85_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.Z1J9_2025-11-04_14-29-31_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1735.0 ملليثانية (402 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_85.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 479 non-null من 498
+  -> RR_Interval_ms_Normalized values: 479 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_85.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_85_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 86
+==============================================
+  -> معالجة GSR: GSR_86_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.4LLJ_2025-11-04_14-43-49_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1800.0 ملليثانية (386 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_86.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 480 non-null من 498
+  -> RR_Interval_ms_Normalized values: 480 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_86.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_86_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 87
+==============================================
+  -> معالجة GSR: GSR_87_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.06LR_2025-11-04_14-58-38_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1745.0 ملليثانية (428 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_87.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 497 non-null من 497
+  -> RR_Interval_ms_Normalized values: 497 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_87.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_87_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 88
+==============================================
+  -> معالجة GSR: GSR_88.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.BQGG_2025-11-04_15-13-01_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1960.0 ملليثانية (405 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_88.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 492 non-null من 492
+  -> RR_Interval_ms_Normalized values: 492 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_88.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_88_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 89
+==============================================
+  -> معالجة GSR: GSR_89_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.FG7V_2025-11-04_15-27-15_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 305.0 - 1715.0 ملليثانية (439 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_89.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 500 non-null من 500
+  -> RR_Interval_ms_Normalized values: 500 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_89.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_89_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 90
+==============================================
+  -> معالجة GSR: GSR_90_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.XCWR_2025-11-04_15-48-37_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1825.0 ملليثانية (397 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_90.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 495 non-null من 495
+  -> RR_Interval_ms_Normalized values: 495 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_90.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_90_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 91
+==============================================
+  -> معالجة GSR: GSR_91.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.W8L1_2025-11-04_16-10-05_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1800.0 ملليثانية (380 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_91.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 445 non-null من 499
+  -> RR_Interval_ms_Normalized values: 445 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_91.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_91_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 92
+==============================================
+  -> معالجة GSR: GSR_92.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.2MA8_2025-11-04_16-32-02_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1780.0 ملليثانية (425 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_92.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 479 non-null من 498
+  -> RR_Interval_ms_Normalized values: 479 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_92.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_92_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 93
+==============================================
+  -> معالجة GSR: GSR_93.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.MUXT_2025-11-04_16-52-25_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1710.0 ملليثانية (453 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_93.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 499 non-null من 499
+  -> RR_Interval_ms_Normalized values: 499 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_93.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_93_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 94
+==============================================
+  -> معالجة GSR: GSR_94_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.ZTS5_2025-11-04_17-52-19_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1935.0 ملليثانية (383 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_94.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 496 non-null من 496
+  -> RR_Interval_ms_Normalized values: 496 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_94.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_94_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 95
+==============================================
+  -> معالجة GSR: GSR_95_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.9UES_2025-11-04_18-12-10_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 305.0 - 1880.0 ملليثانية (405 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_95.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 480 non-null من 499
+  -> RR_Interval_ms_Normalized values: 480 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_95.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_95_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 96
+==============================================
+  -> معالجة GSR: GSR_96_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.43TV_2025-11-04_18-24-47_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1780.0 ملليثانية (423 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_96.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 485 non-null من 499
+  -> RR_Interval_ms_Normalized values: 485 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_96.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_96_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 97
+==============================================
+  -> معالجة GSR: GSR_97_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.A8GQ_2025-11-04_18-40-06_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1905.0 ملليثانية (378 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_97.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 499 non-null من 499
+  -> RR_Interval_ms_Normalized values: 499 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_97.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_97_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 98
+==============================================
+  -> معالجة GSR: GSR_98_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.BJ7Y_2025-11-04_18-55-06_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1950.0 ملليثانية (348 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_98.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 428 non-null من 499
+  -> RR_Interval_ms_Normalized values: 428 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_98.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_98_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 99
+==============================================
+  -> معالجة GSR: GSR__99_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.ZPV5_2025-11-04_19-09-59_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 305.0 - 1960.0 ملليثانية (395 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_99.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 479 non-null من 499
+  -> RR_Interval_ms_Normalized values: 479 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_99.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_99_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 100
+==============================================
+  -> معالجة GSR: GSR_100_f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.5MD9_2025-11-04_19-27-19_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1950.0 ملليثانية (377 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_100.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 479 non-null من 498
+  -> RR_Interval_ms_Normalized values: 479 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_100.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_100_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 101
+==============================================
+  -> معالجة GSR: GSR_101.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.MMAJ_2025-11-04_19-44-37_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 315.0 - 1520.0 ملليثانية (481 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_101.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 500 non-null من 500
+  -> RR_Interval_ms_Normalized values: 500 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_101.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_101_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 102
+==============================================
+  -> معالجة GSR: V102.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.4JNX_2025-11-04_19-59-24_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 305.0 - 1495.0 ملليثانية (13 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_102.csv
+--- ⚠️ تحذير: بيانات GSR ناقصة جداً (26 نقطة فقط)، سيتم تخطي الرسم لتجنب القرافات المشوهة.
+
+==============================================
+بدء معالجة المتطوع رقم 103
+==============================================
+  -> معالجة GSR: V103f.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.9180_2026-03-02_12-31-30_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 320.0 - 1920.0 ملليثانية (459 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_103.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 498 non-null من 499
+  -> RR_Interval_ms_Normalized values: 498 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_103.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_103_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 104
+==============================================
+  -> معالجة GSR: V105.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.142G_2026-03-02_13-09-09_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1975.0 ملليثانية (395 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_104.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 497 non-null من 498
+  -> RR_Interval_ms_Normalized values: 497 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_104.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_104_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 105
+==============================================
+  -> معالجة GSR: V106.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.ZGH0_2026-03-02_13-21-59_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1870.0 ملليثانية (416 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_105.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 447 non-null من 500
+  -> RR_Interval_ms_Normalized values: 447 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_105.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_105_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 106
+==============================================
+  -> معالجة GSR: V107.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.TFPA_2026-03-02_13-35-48_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 320.0 - 1745.0 ملليثانية (440 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_106.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 499 non-null من 499
+  -> RR_Interval_ms_Normalized values: 499 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_106.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_106_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 107
+==============================================
+  -> معالجة GSR: V107.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.ZR5A_2026-03-02_13-49-02_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1870.0 ملليثانية (425 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_107.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 500 non-null من 500
+  -> RR_Interval_ms_Normalized values: 500 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_107.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_107_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 108
+==============================================
+  -> معالجة GSR: V108.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.XBH0_2026-03-02_14-01-49_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1840.0 ملليثانية (437 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_108.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 497 non-null من 498
+  -> RR_Interval_ms_Normalized values: 497 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_108.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_108_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 109
+==============================================
+  -> معالجة GSR: V109.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.P52Q_2026-03-02_14-27-15_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1930.0 ملليثانية (395 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_109.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 481 non-null من 499
+  -> RR_Interval_ms_Normalized values: 481 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_109.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_109_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 110
+==============================================
+  -> معالجة GSR: V110.csv
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_110.csv
+--- ⚠️ تحذير: بيانات RR ناقصة (0 نقطة فقط)، سيتم رسم GSR فقط.
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'HeartRate_BPM', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 0 non-null من 494
+  -> RR_Interval_ms_Normalized values: 0 non-null
+  -> ملاحظة: لم يتم رسم Heart Rate للمتطوع 110 (بيانات مفقودة).
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_110.png
+  -> لم يتم رسم NN Intervals لأن بيانات RR ناقصة.
+
+==============================================
+بدء معالجة المتطوع رقم 111
+==============================================
+  -> معالجة GSR: V112.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.T6MJ_2025-05-22_10-27-42_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1900.0 ملليثانية (354 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_111.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 443 non-null من 499
+  -> RR_Interval_ms_Normalized values: 443 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_111.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_111_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 112
+==============================================
+  -> معالجة GSR: V112.csv
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_112.csv
+--- ⚠️ تحذير: بيانات RR ناقصة (0 نقطة فقط)، سيتم رسم GSR فقط.
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'HeartRate_BPM', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 0 non-null من 499
+  -> RR_Interval_ms_Normalized values: 0 non-null
+  -> ملاحظة: لم يتم رسم Heart Rate للمتطوع 112 (بيانات مفقودة).
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_112.png
+  -> لم يتم رسم NN Intervals لأن بيانات RR ناقصة.
+
+==============================================
+بدء معالجة المتطوع رقم 113
+==============================================
+  -> معالجة GSR: V114.csv
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_113.csv
+--- ⚠️ تحذير: بيانات RR ناقصة (0 نقطة فقط)، سيتم رسم GSR فقط.
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'HeartRate_BPM', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 0 non-null من 499
+  -> RR_Interval_ms_Normalized values: 0 non-null
+  -> ملاحظة: لم يتم رسم Heart Rate للمتطوع 113 (بيانات مفقودة).
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_113.png
+  -> لم يتم رسم NN Intervals لأن بيانات RR ناقصة.
+
+==============================================
+بدء معالجة المتطوع رقم 114
+==============================================
+  -> معالجة GSR: V114.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.U0TA_2026-03-10_16-38-29_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1890.0 ملليثانية (239 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_114.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 314 non-null من 499
+  -> RR_Interval_ms_Normalized values: 314 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_114.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_114_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 115
+==============================================
+  -> معالجة GSR: V115.csv
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_115.csv
+--- ⚠️ تحذير: بيانات RR ناقصة (0 نقطة فقط)، سيتم رسم GSR فقط.
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'HeartRate_BPM', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 0 non-null من 494
+  -> RR_Interval_ms_Normalized values: 0 non-null
+  -> ملاحظة: لم يتم رسم Heart Rate للمتطوع 115 (بيانات مفقودة).
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_115.png
+  -> لم يتم رسم NN Intervals لأن بيانات RR ناقصة.
+
+==============================================
+بدء معالجة المتطوع رقم 116
+==============================================
+  -> معالجة GSR: V116.csv
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_116.csv
+--- ⚠️ تحذير: بيانات RR ناقصة (0 نقطة فقط)، سيتم رسم GSR فقط.
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'HeartRate_BPM', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 0 non-null من 497
+  -> RR_Interval_ms_Normalized values: 0 non-null
+  -> ملاحظة: لم يتم رسم Heart Rate للمتطوع 116 (بيانات مفقودة).
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_116.png
+  -> لم يتم رسم NN Intervals لأن بيانات RR ناقصة.
+
+==============================================
+بدء معالجة المتطوع رقم 117
+==============================================
+  -> معالجة GSR: V117.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.P90X_2026-03-10_17-24-39_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 320.0 - 1455.0 ملليثانية (93 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_117.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 112 non-null من 499
+  -> RR_Interval_ms_Normalized values: 112 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_117.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_117_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 118
+==============================================
+  -> معالجة GSR: V118.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.PCK3_2026-03-10_17-31-48_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1640.0 ملليثانية (407 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_118.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 500 non-null من 500
+  -> RR_Interval_ms_Normalized values: 500 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_118.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_118_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 119
+==============================================
+  -> معالجة GSR: V119.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.CV3S_2026-03-10_17-43-05_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1910.0 ملليثانية (362 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_119.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 499 non-null من 499
+  -> RR_Interval_ms_Normalized values: 499 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_119.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_119_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 120
+==============================================
+  -> معالجة GSR: V120.csv
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_120.csv
+--- ⚠️ تحذير: بيانات RR ناقصة (0 نقطة فقط)، سيتم رسم GSR فقط.
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'HeartRate_BPM', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 0 non-null من 443
+  -> RR_Interval_ms_Normalized values: 0 non-null
+  -> ملاحظة: لم يتم رسم Heart Rate للمتطوع 120 (بيانات مفقودة).
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_120.png
+  -> لم يتم رسم NN Intervals لأن بيانات RR ناقصة.
+
+==============================================
+بدء معالجة المتطوع رقم 121
+==============================================
+  -> معالجة GSR: V121.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.HN75_2026-04-06_13-33-18_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 310.0 - 1615.0 ملليثانية (476 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_121.csv
+--- ⚠️ تحذير: بيانات GSR ناقصة جداً (58 نقطة فقط)، سيتم تخطي الرسم لتجنب القرافات المشوهة.
+
+==============================================
+بدء معالجة المتطوع رقم 122
+==============================================
+  -> معالجة GSR: V122.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.J9P4_2026-04-06_13-45-43_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1530.0 ملليثانية (457 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_122.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 498 non-null من 498
+  -> RR_Interval_ms_Normalized values: 498 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_122.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_122_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 123
+==============================================
+  -> معالجة GSR: V123.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.SYEB_2026-04-06_14-06-02_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1595.0 ملليثانية (457 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_123.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 479 non-null من 499
+  -> RR_Interval_ms_Normalized values: 479 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_123.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_123_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 124
+==============================================
+  -> معالجة GSR: V124.csv
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_124.csv
+--- ⚠️ تحذير: بيانات RR ناقصة (0 نقطة فقط)، سيتم رسم GSR فقط.
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'HeartRate_BPM', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 0 non-null من 499
+  -> RR_Interval_ms_Normalized values: 0 non-null
+  -> ملاحظة: لم يتم رسم Heart Rate للمتطوع 124 (بيانات مفقودة).
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_124.png
+  -> لم يتم رسم NN Intervals لأن بيانات RR ناقصة.
+
+==============================================
+بدء معالجة المتطوع رقم 125
+==============================================
+  -> معالجة GSR: V125.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.Y4L3_2026-04-07_16-37-59_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1885.0 ملليثانية (447 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_125.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 482 non-null من 550
+  -> RR_Interval_ms_Normalized values: 482 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_125.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_125_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 126
+==============================================
+  -> معالجة GSR: V126.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.5LYG_2026-04-07_17-04-33_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1540.0 ملليثانية (450 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_126.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 483 non-null من 500
+  -> RR_Interval_ms_Normalized values: 483 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_126.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_126_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 127
+==============================================
+  -> معالجة GSR: V127.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.FGR3_2026-04-07_17-16-48_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1680.0 ملليثانية (457 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_127.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 484 non-null من 499
+  -> RR_Interval_ms_Normalized values: 484 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_127.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_127_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 128
+==============================================
+  -> معالجة GSR: V128.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.12ZE_2026-04-07_17-29-37_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1935.0 ملليثانية (436 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_128.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 499 non-null من 499
+  -> RR_Interval_ms_Normalized values: 499 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_128.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_128_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 129
+==============================================
+  -> معالجة GSR: V129.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.1ZQF_2026-04-07_17-41-22_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 305.0 - 1980.0 ملليثانية (435 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_129.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 482 non-null من 499
+  -> RR_Interval_ms_Normalized values: 482 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_129.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_129_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 130
+==============================================
+  -> معالجة GSR: V130.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.2ES5_2026-04-07_17-55-40_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 310.0 - 1455.0 ملليثانية (488 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_130.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 498 non-null من 499
+  -> RR_Interval_ms_Normalized values: 498 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_130.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_130_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 131
+==============================================
+  -> معالجة GSR: V131.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.65DX_2026-04-07_18-07-56_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1955.0 ملليثانية (441 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_131.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 500 non-null من 500
+  -> RR_Interval_ms_Normalized values: 500 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_131.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_131_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 132
+==============================================
+  -> معالجة GSR: V132.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.1AT4_2026-04-07_18-21-14_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1890.0 ملليثانية (434 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_132.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 477 non-null من 498
+  -> RR_Interval_ms_Normalized values: 477 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_132.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_132_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 133
+==============================================
+  -> معالجة GSR: V133.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.3R25_2026-04-07_18-35-30_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1965.0 ملليثانية (380 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_133.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 479 non-null من 499
+  -> RR_Interval_ms_Normalized values: 479 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_133.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_133_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 134
+==============================================
+  -> معالجة GSR: V134.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.G7T5_2026-04-07_18-55-51_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 305.0 - 1620.0 ملليثانية (439 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_134.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 483 non-null من 499
+  -> RR_Interval_ms_Normalized values: 483 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_134.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_134_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 135
+==============================================
+  -> معالجة GSR: V135.csv
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_135.csv
+--- ⚠️ تحذير: بيانات RR ناقصة (0 نقطة فقط)، سيتم رسم GSR فقط.
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'HeartRate_BPM', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 0 non-null من 471
+  -> RR_Interval_ms_Normalized values: 0 non-null
+  -> ملاحظة: لم يتم رسم Heart Rate للمتطوع 135 (بيانات مفقودة).
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_135.png
+  -> لم يتم رسم NN Intervals لأن بيانات RR ناقصة.
+
+==============================================
+بدء معالجة المتطوع رقم 136
+==============================================
+  -> معالجة GSR: V136.csv
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_136.csv
+--- ⚠️ تحذير: بيانات RR ناقصة (0 نقطة فقط)، سيتم رسم GSR فقط.
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'HeartRate_BPM', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 0 non-null من 499
+  -> RR_Interval_ms_Normalized values: 0 non-null
+  -> ملاحظة: لم يتم رسم Heart Rate للمتطوع 136 (بيانات مفقودة).
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_136.png
+  -> لم يتم رسم NN Intervals لأن بيانات RR ناقصة.
+
+==============================================
+بدء معالجة المتطوع رقم 137
+==============================================
+  -> معالجة GSR: V137.csv
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_137.csv
+--- ⚠️ تحذير: بيانات RR ناقصة (0 نقطة فقط)، سيتم رسم GSR فقط.
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'HeartRate_BPM', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 0 non-null من 494
+  -> RR_Interval_ms_Normalized values: 0 non-null
+  -> ملاحظة: لم يتم رسم Heart Rate للمتطوع 137 (بيانات مفقودة).
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_137.png
+  -> لم يتم رسم NN Intervals لأن بيانات RR ناقصة.
+
+==============================================
+بدء معالجة المتطوع رقم 138
+==============================================
+  -> معالجة GSR: V138.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.LYXY_2026-04-14_15-48-30_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1920.0 ملليثانية (432 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_138.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 469 non-null من 493
+  -> RR_Interval_ms_Normalized values: 469 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_138.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_138_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 139
+==============================================
+  -> معالجة GSR: V139.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.B9Y6_2026-04-14_16-01-41_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1925.0 ملليثانية (415 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_139.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 499 non-null من 499
+  -> RR_Interval_ms_Normalized values: 499 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_139.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_139_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 140
+==============================================
+  -> معالجة GSR: V140.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.36SK_2026-04-14_16-39-11_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1765.0 ملليثانية (418 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_140.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 498 non-null من 498
+  -> RR_Interval_ms_Normalized values: 498 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_140.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_140_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 141
+==============================================
+  -> معالجة GSR: V141.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.7235_2026-04-14_16-53-01_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1965.0 ملليثانية (410 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_141.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 478 non-null من 499
+  -> RR_Interval_ms_Normalized values: 478 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_141.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_141_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 142
+==============================================
+  -> معالجة GSR: V142.csv
+  -> وجدت 1 ملف(ات) RR Intervals
+  -> معالجة RR Intervals: 29R7.7235_2026-04-14_16-53-01_rr_int.csv
+  -> نطاق RR Intervals (بعد التنظيف): 300.0 - 1965.0 ملليثانية (410 قيمة صحيحة)
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_142.csv
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 464 non-null من 485
+  -> RR_Interval_ms_Normalized values: 464 non-null
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_142.png
+  -> تم حفظ رسم Heart Rate (NN Intervals) في: ./cleaned_data/plot_142_nn_interval.png
+
+==============================================
+بدء معالجة المتطوع رقم 143
+==============================================
+  -> معالجة GSR: V143.csv
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_143.csv
+--- ⚠️ تحذير: بيانات RR ناقصة (0 نقطة فقط)، سيتم رسم GSR فقط.
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'HeartRate_BPM', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 0 non-null من 494
+  -> RR_Interval_ms_Normalized values: 0 non-null
+  -> ملاحظة: لم يتم رسم Heart Rate للمتطوع 143 (بيانات مفقودة).
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_143.png
+  -> لم يتم رسم NN Intervals لأن بيانات RR ناقصة.
+
+==============================================
+بدء معالجة المتطوع رقم 144
+==============================================
+  -> معالجة GSR: V144.csv
+  -> تم حفظ البيانات النظيفة في: ./cleaned_data/cleaned_data_144.csv
+--- ⚠️ تحذير: بيانات RR ناقصة (0 نقطة فقط)، سيتم رسم GSR فقط.
+
+  -> DEBUG: الأعمدة الموجودة في الـ DataFrame:
+  -> ['Time_sec', 'Conductance_microS', 'Stage', 'RR_Interval_ms', 'HeartRate_BPM', 'Conductance_microS_Normalized', 'RR_Interval_ms_Normalized']
+  -> RR_Interval_ms values: 0 non-null من 489
+  -> RR_Interval_ms_Normalized values: 0 non-null
+  -> ملاحظة: لم يتم رسم Heart Rate للمتطوع 144 (بيانات مفقودة).
+  -> تم حفظ الرسم البياني في: ./cleaned_data/plot_144.png
+  -> لم يتم رسم NN Intervals لأن بيانات RR ناقصة.
