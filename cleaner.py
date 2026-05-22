@@ -73,42 +73,56 @@ def find_rr_interval_files(volunteer_dir):
     return sorted(rr_files) 
 
 def process_gsr(file_path):
-    """ينظف ملف GSR ويوحد عمود الوقت والمرحلة."""
     print(f"  -> معالجة GSR: {os.path.basename(file_path)}")
     df = pd.read_csv(file_path)
+
+    # دائماً نشتغل من Resistance — مهما كان نوع الملف
+    # لأن ESP32 يرسل Resistance فقط
     
-    # التعامل مع أسماء الأعمدة المختلفة (قديم وجديد)
-    # للملفات القديمة: Time (s), Resistance (Ω), Stage
-    # للملفات الجديدة: Time (s), Resistance (Ω), Conductance (µS), Stage
-    
-    # إذا كان الملف الجديد يحتوي على Conductance، استخدمها مباشرة
-    if 'Conductance (µS)' in df.columns:
-        df.rename(columns={'Time (s)': 'Time_sec', 'Conductance (µS)': 'Conductance_microS'}, inplace=True)
+    if 'Resistance (Ω)' in df.columns:
+        df.rename(columns={
+            'Time (s)': 'Time_sec',
+            'Resistance (Ω)': 'Resistance_Ohm'
+        }, inplace=True)
+        
+    elif 'Conductance (µS)' in df.columns:
+        # الملف الجديد — فيه Conductance محسوب من JS
+        # نستخدمه مباشرة لأن JS حسبه صح: (1/R)*1e6
+        df.rename(columns={
+            'Time (s)': 'Time_sec',
+            'Conductance (µS)': 'Conductance_microS'
+        }, inplace=True)
+        # تخطى التحويل وروح للنهاية
+        df['Time_sec'] = df['Time_sec'].round(0).astype(int)
+        df.drop_duplicates(subset=['Time_sec'], keep='first', inplace=True)
+        df = df[df['Time_sec'] <= TOTAL_SESSION_TIME_SEC].copy()
+        df['Stage'] = df['Time_sec'].apply(get_stage)
+        df['Conductance_microS'] = pd.to_numeric(
+            df['Conductance_microS'], errors='coerce'
+        )
+        print(f"  -> استخدم Conductance مباشر من الملف")
+        return df[['Time_sec', 'Conductance_microS', 'Stage']]
     else:
-        # وإلا تحويل من Resistance (Ω) إلى Conductance (µS)
-        # Conductance (S) = 1 / Resistance (Ω)
-        # Conductance (µS) = (1 / Resistance) * 1e6
-        df.rename(columns={'Time (s)': 'Time_sec', 'Resistance (Ω)': 'Resistance_Ohm'}, inplace=True)
-        # تأكد من أن القيم عددية
-        df['Resistance_Ohm'] = pd.to_numeric(df['Resistance_Ohm'], errors='coerce')
-        # تجنب القسمة على صفر
-        df.loc[df['Resistance_Ohm'] <= 0, 'Resistance_Ohm'] = np.nan
-        df['Conductance_microS'] = (1.0 / df['Resistance_Ohm']) * 1e6
-        # بعد التحويل يمكن إسقاط عمود Resistance_Ohm إذا أردنا
-        # df.drop(columns=['Resistance_Ohm'], inplace=True)
+        print(f"--- ❌ ما لقيت عمود مناسب في: {file_path}")
+        return None
+
+    # تحويل Resistance → Conductance
+    df['Resistance_Ohm'] = pd.to_numeric(df['Resistance_Ohm'], errors='coerce')
+    df.loc[df['Resistance_Ohm'] <= 0, 'Resistance_Ohm'] = np.nan
     
-    # 1. إصلاح الوقت وتوحيده (التقريب لأقرب ثانية صحيحة)
+    # ✅ هنا التحويل الصحيح
+    df['Conductance_microS'] = (1.0 / df['Resistance_Ohm']) * 1e6
+
     df['Time_sec'] = df['Time_sec'].round(0).astype(int)
-    
-    # 2. إزالة التكرارات الناتجة عن التقريب (الحفاظ على أول قيمة)
     df.drop_duplicates(subset=['Time_sec'], keep='first', inplace=True)
-    
-    # 3. قص البيانات حتى نهاية الجلسة
     df = df[df['Time_sec'] <= TOTAL_SESSION_TIME_SEC].copy()
-    
-    # 4. إصلاح عمود Stage (الاستبدال بناءً على جدولنا لضمان التوحيد)
     df['Stage'] = df['Time_sec'].apply(get_stage)
-    
+
+    valid = df['Conductance_microS'].notna()
+    print(f"  -> Conductance نطاق: "
+          f"{df.loc[valid,'Conductance_microS'].min():.2f} - "
+          f"{df.loc[valid,'Conductance_microS'].max():.2f} µS")
+
     return df[['Time_sec', 'Conductance_microS', 'Stage']]
 
 def process_cossinus_hr(file_path, stage_df):
