@@ -1,0 +1,102 @@
+[
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_ble_sample_counter_ble_sample_amount_ble_packet_counter.csv",
+    "size_bytes": 33620,
+    "sha256": "d55a8f520217abf94304c17580e7a4d03b132d4533a7387525d5e678fbebfecd"
+  },
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_quality.csv",
+    "size_bytes": 6412,
+    "sha256": "161983f10e928dbcf6561fc1cab3b26d4eaf7dfc04e80d82addea19e83b0833a"
+  },
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_omega.csv",
+    "size_bytes": 3105,
+    "sha256": "eb759dd83deab2d7d50447d93dc940a1d10c5b1a6e2b2ec8296d8f60503025f4"
+  },
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_rr_int.csv",
+    "size_bytes": 11525,
+    "sha256": "87b7842d3ca5ba59578d7d46aecc03ba9cef8c68345f78795826be24867c76e0"
+  },
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_acc_x_acc_y_acc_z.csv",
+    "size_bytes": 1550167,
+    "sha256": "359f3df59b55338ca6db650dcc696c2eb95731f6eefa1e5e9e991564a3e414cc"
+  },
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_ppg_quality.csv",
+    "size_bytes": 3699,
+    "sha256": "5d93b3e91725505ffb8307cc440fa99410275733ba8fa7590ec2e60764e77a46"
+  },
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_perfusion_ir.csv",
+    "size_bytes": 3112,
+    "sha256": "d21a915136429a2807d936e35d08e76f59323432c5d243fce22b313b7a1f4f5b"
+  },
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_adc_range_led_cur_ir_led_cur_red.csv",
+    "size_bytes": 351,
+    "sha256": "91dc82be5ea7b2ef4c10d9410f56894ccd1df742c8e05bcf43587e2abbcfe72e"
+  },
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_respiration_rate.csv",
+    "size_bytes": 544,
+    "sha256": "002a094739f8aeb2d80e849ba9085f101ca51ca9bea6cb2fb44756da07f33614"
+  },
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_tech_perfusion_ir.csv",
+    "size_bytes": 314,
+    "sha256": "c0d9172a6b9c14643bc4286a7f6489e6a1963107596b6a918c403453c1527b33"
+  },
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_temperature.csv",
+    "size_bytes": 8803,
+    "sha256": "10b19df94e96f7e583e7ad9d4f5c11188082aa41871b0df6b483ec30ba894e08"
+  },
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_heart_rate.csv",
+    "size_bytes": 6458,
+    "sha256": "e31c32661f732d6c1fdd772002281a2a9106bf5a694cea859d7e9113c6826b4b"
+  },
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_acc_mag.csv",
+    "size_bytes": 265796,
+    "sha256": "006f031d5c1cee5eed22a0607add6b5c577268501ac1c9952d4233a413401ecd"
+  },
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_ppg_ir_ppg_ambient_ppg_red.csv",
+    "size_bytes": 2969482,
+    "sha256": "2158372018b7e1d34da3f55d2e4b7ec3ecc141b7ba792f15f8fd3f7f6306a512"
+  },
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_spo2.csv",
+    "size_bytes": 2498,
+    "sha256": "b44ceb6a8c2d3bd5114b6ca713cf7453bab1661040e1f412b462e2a5d33593a6"
+  },
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_quality_max.csv",
+    "size_bytes": 308,
+    "sha256": "56a195cae425de18f8aea7136aa7945df22dd800897aea4d1c10f1753f95ad65"
+  },
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_acc_dev.csv",
+    "size_bytes": 304,
+    "sha256": "90c0ffd8b1d2eeeea1e28a046e091d78ac7fb38980b580f38af965baa320994b"
+  },
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_battery.csv",
+    "size_bytes": 920,
+    "sha256": "67f5b0a8da84e60a9998a0c97660a06dcbeadc2ec172824e048f75d2107dd777"
+  },
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_ble_sample_counter_acc_ble_sample_amount_acc_ble_packet_counter_acc.csv",
+    "size_bytes": 16121,
+    "sha256": "59a32f1f96b91dc75d8f62be1091da4e3dbeadf0341eb6bab5ee3ceb6e2ad5bd"
+  },
+  {
+    "name": "29R7.045F_2026-06-08_17-32-22_ppg_med.csv",
+    "size_bytes": 271715,
+    "sha256": "007392f0cd58e9d9e42a7b20265a9872ea5944eb3a956e479d082f8ce9a61339"
+  }
+]

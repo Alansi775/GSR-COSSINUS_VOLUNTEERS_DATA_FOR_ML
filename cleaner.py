@@ -341,7 +341,8 @@ def process_and_plot_volunteer(volunteer_id):
     df_gsr_raw.drop_duplicates(subset=['Time_sec'], keep='first', inplace=True)
 
     # 2. تحديد جنس المتطوع (للرسم فقط)
-    is_female = any('_f' in str(volunteer_id).lower() for _ in [1]) or any('_f.csv' in os.path.basename(f).lower() for f in gsr_files)
+    vid_lower = str(volunteer_id).lower()
+    is_female = (vid_lower.endswith('f') or '_f' in vid_lower) or any('_f.csv' in os.path.basename(f).lower() or os.path.basename(f).lower().endswith('f.csv') for f in gsr_files)
     gender_label = 'Girl' if is_female else 'Boy'
     
     # 2.5. كشف الفيديو
@@ -608,7 +609,9 @@ def main():
             volunteer_ids.append((int(v), v))
         elif v.upper().startswith('V'):
             try:
-                volunteer_ids.append((int(v[1:]), v))  # استخراج الرقم من V###
+                num_str = re.sub(r'[^0-9]', '', v[1:])  # استخراج الأرقام فقط من V### أو V###f
+                if num_str:
+                    volunteer_ids.append((int(num_str), v))
             except ValueError:
                 pass
     
