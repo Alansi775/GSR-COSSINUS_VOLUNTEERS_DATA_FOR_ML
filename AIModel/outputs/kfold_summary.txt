@@ -1,0 +1,23 @@
+5-Fold Subject-Wise Cross-Validation
+=============================================
+Fold 1: 76.57%
+Fold 2: 77.18%
+Fold 3: 66.28%
+Fold 4: 74.41%
+Fold 5: 73.53%
+
+Mean accuracy: 73.59% +/- 3.90%
+
+Pooled confusion matrix (all folds combined):
+[[1226  284]
+ [ 400  682]]
+
+Pooled classification report:
+              precision    recall  f1-score   support
+
+     Relaxed     0.7540    0.8119    0.7819      1510
+    Stressed     0.7060    0.6303    0.6660      1082
+
+    accuracy                         0.7361      2592
+   macro avg     0.7300    0.7211    0.7240      2592
+weighted avg     0.7340    0.7361    0.7335      2592
